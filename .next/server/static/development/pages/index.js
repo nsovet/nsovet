@@ -512,6 +512,7 @@ var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/in
     __self: this
   }, "\u0424\u0438\u043D\u0430\u043D\u0441\u043E\u0432\u044B\u0435 \u0433\u0430\u0440\u0430\u043D\u0442\u0438\u0438 \u043F\u043E \u0434\u043E\u0433\u043E\u0432\u043E\u0440\u0443"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: _css_index_promises_scss__WEBPACK_IMPORTED_MODULE_1___default.a.promisesCall,
+    href: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50

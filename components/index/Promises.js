@@ -47,7 +47,7 @@ export default () => {
                         <p>Финансовые гарантии по договору</p>
                     </div>
                 </div>
-                <a className={css.promisesCall}>
+                <a className={css.promisesCall} href=''>
                     <img src='/static/phoneWhite.svg' />
                     <span>Связаться с нами</span>
                 </a>

@@ -106,7 +106,7 @@ module.exports = {"promisesWrapper":"_1nBNq0CpJCBE2e5XdeAb8G","promises":"_2gKXS
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557493458027");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557493626243");
           });
       }
     }
