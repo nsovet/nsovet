@@ -443,6 +443,241 @@ var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/in
 
 /***/ }),
 
+/***/ "./components/index/Recomendations.js":
+/*!********************************************!*\
+  !*** ./components/index/Recomendations.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_index_recomendations_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../css/index/recomendations.scss */ "./css/index/recomendations.scss");
+/* harmony import */ var _css_index_recomendations_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_index_recomendations_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/index/Recomendations.js";
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_recomendations_scss__WEBPACK_IMPORTED_MODULE_1___default.a.recomendationsWrapper,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_recomendations_scss__WEBPACK_IMPORTED_MODULE_1___default.a.recomendations,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "\u041D\u0430\u0441 \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u044E\u0442"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_recomendations_scss__WEBPACK_IMPORTED_MODULE_1___default.a.recomendationsCarousel,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_recomendations_scss__WEBPACK_IMPORTED_MODULE_1___default.a.carouselArrowLeft,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/carousel/left.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/shittyPic.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_recomendations_scss__WEBPACK_IMPORTED_MODULE_1___default.a.carouselArrowRight,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/carousel/right.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: _css_index_recomendations_scss__WEBPACK_IMPORTED_MODULE_1___default.a.recomendationsCall,
+    href: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/phoneWhite.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "\u0421\u0432\u044F\u0437\u0430\u0442\u044C\u0441\u044F \u0441 \u043D\u0430\u043C\u0438"))));
+});
+
+/***/ }),
+
+/***/ "./components/index/Services.js":
+/*!**************************************!*\
+  !*** ./components/index/Services.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_index_services_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../css/index/services.scss */ "./css/index/services.scss");
+/* harmony import */ var _css_index_services_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_index_services_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/index/Services.js";
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_services_scss__WEBPACK_IMPORTED_MODULE_1___default.a.servicesWrapper,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_services_scss__WEBPACK_IMPORTED_MODULE_1___default.a.services,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "\u041D\u0430\u0448\u0438 \u0443\u0441\u043B\u0443\u0433\u0438:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_services_scss__WEBPACK_IMPORTED_MODULE_1___default.a.servicesItems,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_services_scss__WEBPACK_IMPORTED_MODULE_1___default.a.servicesItem,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/services/individuals.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u043B\u0438\u0446\u0430")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_services_scss__WEBPACK_IMPORTED_MODULE_1___default.a.servicesItem,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/services/enterprenuers.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "\u0418\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u043F\u0440\u0435\u0434\u043F\u0440\u0435\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u0438")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_services_scss__WEBPACK_IMPORTED_MODULE_1___default.a.servicesItem,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/services/organisations.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "\u042E\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u043B\u0438\u0446\u0430"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: _css_index_services_scss__WEBPACK_IMPORTED_MODULE_1___default.a.servicesCall,
+    href: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/phoneWhite.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "\u0421\u0432\u044F\u0437\u0430\u0442\u044C\u0441\u044F \u0441 \u043D\u0430\u043C\u0438"))));
+});
+
+/***/ }),
+
 /***/ "./components/index/Starter.js":
 /*!*************************************!*\
   !*** ./components/index/Starter.js ***!
@@ -4144,14 +4379,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_index_Starter__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/index/Starter */ "./components/index/Starter.js");
 /* harmony import */ var _components_index_Factoids__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/index/Factoids */ "./components/index/Factoids.js");
 /* harmony import */ var _components_index_Promises__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/index/Promises */ "./components/index/Promises.js");
-/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../css/style.scss */ "./css/style.scss");
-/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_css_style_scss__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _components_index_Services__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/index/Services */ "./components/index/Services.js");
+/* harmony import */ var _components_index_Recomendations__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/index/Recomendations */ "./components/index/Recomendations.js");
+/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../css/style.scss */ "./css/style.scss");
+/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_css_style_scss__WEBPACK_IMPORTED_MODULE_13__);
 
 
 
 
 
 var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/pages/index.js";
+
+
 
 
 
@@ -4177,43 +4416,55 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 21
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 22
         },
         __self: this
       }, "\u041D\u0430\u043B\u043E\u0433\u043E\u0432\u044B\u0439 \u0441\u043E\u0432\u0435\u0442\u043D\u0438\u043A")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 25
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Starter__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 26
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Factoids__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 27
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Promises__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 28
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Services__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Recomendations__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
         },
         __self: this
       }));

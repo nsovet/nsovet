@@ -5,6 +5,8 @@ import Header from '../components/Header'
 import Starter from '../components/index/Starter'
 import Factoids from '../components/index/Factoids'
 import Promises from '../components/index/Promises'
+import Services from '../components/index/Services'
+import Recomendations from '../components/index/Recomendations'
 import '../css/style.scss'
 
 
@@ -24,6 +26,8 @@ class Index extends React.Component{
                 <Starter />
                 <Factoids />
                 <Promises />
+                <Services />
+                <Recomendations />
             </div>
         )
     }
