@@ -2,7 +2,9 @@
   width: 100vw;
   height: 90px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
-  font-family: "Inter UI"; }
+  font-family: "Inter UI";
+  position: fixed;
+  background-color: #fff; }
   ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ {
     width: 1236px;
     margin: 0 auto;
@@ -61,6 +63,62 @@
           font-weight: 700;
           color: black;
           text-decoration: none; }
+
+._1BDeTWFB710CNfQQ32IuZf {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Inter UI"; }
+  ._1BDeTWFB710CNfQQ32IuZf ._2rpBUzv5hsNNCITeeMW1BQ {
+    position: relative;
+    margin: 0 auto;
+    width: 1236px;
+    height: 100%;
+    display: flex;
+    align-items: center; }
+    ._1BDeTWFB710CNfQQ32IuZf ._2rpBUzv5hsNNCITeeMW1BQ .GotsD5-A5Ixa_MiZxCbzo {
+      position: absolute;
+      right: 0px;
+      top: 123px;
+      text-align: right;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 26px;
+      color: white; }
+    ._1BDeTWFB710CNfQQ32IuZf ._2rpBUzv5hsNNCITeeMW1BQ ._4cddlZ6efLmaurqIRoL95 h1 {
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 68px;
+      letter-spacing: -0.02em;
+      color: white;
+      margin-bottom: 29px; }
+    ._1BDeTWFB710CNfQQ32IuZf ._2rpBUzv5hsNNCITeeMW1BQ ._4cddlZ6efLmaurqIRoL95 p {
+      width: 485px;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 34px;
+      color: white;
+      margin-bottom: 36px; }
+      ._1BDeTWFB710CNfQQ32IuZf ._2rpBUzv5hsNNCITeeMW1BQ ._4cddlZ6efLmaurqIRoL95 p span {
+        font-weight: 700; }
+    ._1BDeTWFB710CNfQQ32IuZf ._2rpBUzv5hsNNCITeeMW1BQ ._4cddlZ6efLmaurqIRoL95 ._1gj_guhHLVXibyIgaSmRFN {
+      width: 265px;
+      height: 65px;
+      background: #4F261C;
+      box-shadow: 4px 4px 44px rgba(98, 48, 36, 0.44);
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      text-decoration: none; }
+      ._1BDeTWFB710CNfQQ32IuZf ._2rpBUzv5hsNNCITeeMW1BQ ._4cddlZ6efLmaurqIRoL95 ._1gj_guhHLVXibyIgaSmRFN span {
+        display: flex;
+        align-self: center;
+        transform: translateY(-2px);
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        text-decoration: none; }
 
 @font-face {
   font-family: 'Inter UI';

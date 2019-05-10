@@ -2,7 +2,10 @@ import React from 'react';
 import Head from 'next/head'
 
 import Header from '../components/Header'
+import Starter from '../components/index/Starter'
 import '../css/style.scss'
+
+
 class Index extends React.Component{
     constructor(props){
         super(props)
@@ -16,6 +19,7 @@ class Index extends React.Component{
                 </Head>
 
                 <Header />
+                <Starter />
             </div>
         )
     }

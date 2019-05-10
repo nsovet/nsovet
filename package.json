@@ -19,7 +19,8 @@
     "nextjs": "0.0.3",
     "node-sass": "^4.11.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "styled-jsx": "^3.2.1"
   },
   "devDependencies": {
     "file-loader": "^3.0.1",
