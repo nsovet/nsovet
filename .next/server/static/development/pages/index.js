@@ -208,6 +208,124 @@ var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/He
 
 /***/ }),
 
+/***/ "./components/index/Factoids.js":
+/*!**************************************!*\
+  !*** ./components/index/Factoids.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_index_factoids_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../css/index/factoids.scss */ "./css/index/factoids.scss");
+/* harmony import */ var _css_index_factoids_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_index_factoids_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/index/Factoids.js";
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_factoids_scss__WEBPACK_IMPORTED_MODULE_1___default.a.factoidsWrapper,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_factoids_scss__WEBPACK_IMPORTED_MODULE_1___default.a.factoids,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "\u041E \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438 \u0432 \u0446\u0438\u0444\u0440\u0430\u0445:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_factoids_scss__WEBPACK_IMPORTED_MODULE_1___default.a.factoidsItems,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_factoids_scss__WEBPACK_IMPORTED_MODULE_1___default.a.factoidsItem,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "10+"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "\u041B\u0435\u0442 \u0440\u0430\u0431\u043E\u0442\u044B")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_factoids_scss__WEBPACK_IMPORTED_MODULE_1___default.a.factoidsItem,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "18"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "\u041A\u0432\u0430\u043B\u0438\u0444\u0438\u0446\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), "\u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u043E\u0432")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _css_index_factoids_scss__WEBPACK_IMPORTED_MODULE_1___default.a.factoidsItem,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "300+"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "\u041A\u043E\u043C\u043F\u0430\u043D\u0438\u0439 \u043C\u044B", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), "\u043E\u0431\u0441\u043B\u0443\u0436\u0438\u0432\u0430\u0435\u043C")))));
+});
+
+/***/ }),
+
 /***/ "./components/index/Starter.js":
 /*!*************************************!*\
   !*** ./components/index/Starter.js ***!
@@ -331,6 +449,22 @@ module.exports = {
 	"headerMenu": "_1q2MbpR-8YiDZIqs2_NqPg",
 	"headerMenuActive": "_1D8pUt6lpRWrfu1aFyYIvi",
 	"headerCallWrapper": "_1HqPX6mfLOiEyutI66LNku"
+};
+
+/***/ }),
+
+/***/ "./css/index/factoids.scss":
+/*!*********************************!*\
+  !*** ./css/index/factoids.scss ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"factoidsWrapper": "_1kU9lyierBqlNdYh83wAWu",
+	"factoids": "_1PdhGz_dV4gk0xUkYsk5oa",
+	"factoidsItems": "_217_TtfXEUx-W0PiMa11bt",
+	"factoidsItem": "_2hMI762Tmlp3Br-aLxxLTN"
 };
 
 /***/ }),
@@ -660,14 +794,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
 /* harmony import */ var _components_index_Starter__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/index/Starter */ "./components/index/Starter.js");
-/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../css/style.scss */ "./css/style.scss");
-/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_style_scss__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _components_index_Factoids__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/index/Factoids */ "./components/index/Factoids.js");
+/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../css/style.scss */ "./css/style.scss");
+/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_style_scss__WEBPACK_IMPORTED_MODULE_10__);
 
 
 
 
 
 var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/pages/index.js";
+
 
 
 
@@ -691,31 +827,37 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 18
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 19
         },
         __self: this
       }, "\u041D\u0430\u043B\u043E\u0433\u043E\u0432\u044B\u0439 \u0441\u043E\u0432\u0435\u0442\u043D\u0438\u043A")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 22
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Starter__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Factoids__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
         },
         __self: this
       }));

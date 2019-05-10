@@ -3,6 +3,7 @@ import Head from 'next/head'
 
 import Header from '../components/Header'
 import Starter from '../components/index/Starter'
+import Factoids from '../components/index/Factoids'
 import '../css/style.scss'
 
 
@@ -20,6 +21,7 @@ class Index extends React.Component{
 
                 <Header />
                 <Starter />
+                <Factoids />
             </div>
         )
     }
