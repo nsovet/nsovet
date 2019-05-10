@@ -4,6 +4,7 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
   font-family: "Inter UI";
   position: fixed;
+  z-index: 10;
   background-color: #fff; }
   ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ {
     width: 1236px;
@@ -157,6 +158,63 @@
           line-height: 34px;
           text-align: center;
           color: white; }
+
+._1nBNq0CpJCBE2e5XdeAb8G {
+  width: 100vw;
+  font-family: "Inter UI"; }
+  ._1nBNq0CpJCBE2e5XdeAb8G ._2gKXSglENg-RdbqAAX377- {
+    width: 1236px;
+    margin: 0 auto; }
+    ._1nBNq0CpJCBE2e5XdeAb8G ._2gKXSglENg-RdbqAAX377- h1 {
+      padding-top: 48px;
+      margin-bottom: 100px;
+      text-align: center;
+      font-size: 50px;
+      line-height: 60px;
+      font-weight: 700;
+      color: white; }
+    ._1nBNq0CpJCBE2e5XdeAb8G ._2gKXSglENg-RdbqAAX377- ._221H0vscTTYbVi9_b2eEnr {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      ._1nBNq0CpJCBE2e5XdeAb8G ._2gKXSglENg-RdbqAAX377- ._221H0vscTTYbVi9_b2eEnr ._3OIxEF_XFLaebL1hJm60bG {
+        width: 315px;
+        height: 250px;
+        padding-bottom: 108px;
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        color: white;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px; }
+        ._1nBNq0CpJCBE2e5XdeAb8G ._2gKXSglENg-RdbqAAX377- ._221H0vscTTYbVi9_b2eEnr ._3OIxEF_XFLaebL1hJm60bG img {
+          width: 109px;
+          max-height: 109px; }
+        ._1nBNq0CpJCBE2e5XdeAb8G ._2gKXSglENg-RdbqAAX377- ._221H0vscTTYbVi9_b2eEnr ._3OIxEF_XFLaebL1hJm60bG p {
+          position: absolute;
+          top: 163px; }
+        ._1nBNq0CpJCBE2e5XdeAb8G ._2gKXSglENg-RdbqAAX377- ._221H0vscTTYbVi9_b2eEnr ._3OIxEF_XFLaebL1hJm60bG:nth-of-type(3n+2) {
+          text-align: center; }
+    ._1nBNq0CpJCBE2e5XdeAb8G ._2gKXSglENg-RdbqAAX377- .TfcVh56c78_77iXY7W5GE {
+      width: 296px;
+      height: 68px;
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      background: #4F261C;
+      box-shadow: 4px 4px 44px rgba(98, 48, 36, 0.44);
+      border-radius: 20px; }
+      ._1nBNq0CpJCBE2e5XdeAb8G ._2gKXSglENg-RdbqAAX377- .TfcVh56c78_77iXY7W5GE span {
+        padding-left: 6px;
+        display: flex;
+        align-self: center;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 28px;
+        color: white; }
 
 @font-face {
   font-family: 'Inter UI';

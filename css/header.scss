@@ -6,6 +6,7 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
     font-family: $font;
     position: fixed;
+    z-index: 10;
     background-color: #fff;
     .header{
         width: 1236px;

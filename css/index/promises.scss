@@ -1,0 +1,68 @@
+@import '../variables.scss';
+
+.promisesWrapper{
+    width: 100vw;
+    font-family: $font;
+    .promises{
+        width: $width;
+        margin: 0 auto;
+        h1{
+            padding-top: 48px;
+            margin-bottom: 100px;
+            text-align: center;
+            font-size: 50px;
+            line-height: 60px;
+            font-weight: 700;
+            color: white;
+        }
+        .promisesItems{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .promisesItem{
+                width: 315px;
+                height: 250px;
+                padding-bottom: 108px;
+                position: relative;
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                color: white;
+                font-weight: 500;
+                font-size: 21px;
+                line-height: 25px;
+                img{
+                    width: 109px;
+                    max-height: 109px;
+                }
+                p{
+                    position: absolute;
+                    top: 163px;
+                }
+                &:nth-of-type(3n+2){
+                    text-align: center;
+                }
+            }
+        }
+        .promisesCall{
+            width: 296px;
+            height: 68px;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            background: #4F261C;
+            box-shadow: 4px 4px 44px rgba(98, 48, 36, 0.44);
+            border-radius: 20px;
+            span{
+                padding-left: 6px;
+                display: flex;
+                align-self: center;
+                font-weight: 600;
+                font-size: 23px;
+                line-height: 28px;
+                color: white;
+            }
+        }
+    }
+}
