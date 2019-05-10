@@ -1,0 +1,165 @@
+._1GsOjDqIVfQzE0PTy144LV {
+  width: 100vw;
+  height: 90px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+  font-family: "Inter UI"; }
+  ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ {
+    width: 1236px;
+    margin: 0 auto;
+    padding-top: 17px;
+    display: flex;
+    justify-content: space-between; }
+    ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ ._34WC-nn-NHbgcZE5Wgg821 {
+      display: block;
+      width: 153px;
+      height: 51px; }
+    ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg {
+      height: 51px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg ._1q2MbpR-8YiDZIqs2_NqPg {
+        width: 454px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 34px; }
+        ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg ._1q2MbpR-8YiDZIqs2_NqPg a {
+          font-weight: 600;
+          font-size: 19px;
+          line-height: 23px;
+          text-decoration: none;
+          color: black; }
+        ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg ._1q2MbpR-8YiDZIqs2_NqPg ._1D8pUt6lpRWrfu1aFyYIvi {
+          position: relative;
+          height: 100%; }
+          ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg ._1q2MbpR-8YiDZIqs2_NqPg ._1D8pUt6lpRWrfu1aFyYIvi::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 6px;
+            top: 53px;
+            background-color: #4F261C; }
+      ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg ._1HqPX6mfLOiEyutI66LNku {
+        display: block;
+        width: 234px;
+        height: 51px;
+        background: #FFC700;
+        box-shadow: 4px 4px 22px rgba(98, 48, 36, 0.16);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-decoration: none; }
+        ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg ._1HqPX6mfLOiEyutI66LNku img {
+          padding-right: 7px; }
+        ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg ._1HqPX6mfLOiEyutI66LNku span {
+          display: flex;
+          align-self: center;
+          font-size: 18px;
+          line-height: 22px;
+          font-weight: 700;
+          color: black;
+          text-decoration: none; }
+
+@font-face {
+  font-family: 'Inter UI';
+  font-weight: 400;
+  font-style: normal;
+  src: url("/static/fonts/Inter-Regular.woff2"); }
+
+@font-face {
+  font-family: 'Inter UI';
+  font-weight: 400;
+  font-style: italic;
+  src: url("/static/fonts/Inter-Italic.woff2"); }
+
+@font-face {
+  font-family: 'Inter UI';
+  font-weight: 500;
+  font-style: normal;
+  src: url("/static/fonts/Inter-Medium.woff2"); }
+
+@font-face {
+  font-family: 'Inter UI';
+  font-weight: 500;
+  font-style: italic;
+  src: url("/static/fonts/Inter-MediumItalic.woff2"); }
+
+@font-face {
+  font-family: 'Inter UI';
+  font-weight: 600;
+  font-style: normal;
+  src: url("/static/fonts/Inter-SemiBold.woff2"); }
+
+@font-face {
+  font-family: 'Inter UI';
+  font-weight: 600;
+  font-style: italic;
+  src: url("/static/fonts/Inter-SemiBoldItalic.woff2"); }
+
+@font-face {
+  font-family: 'Inter UI';
+  font-weight: 700;
+  font-style: normal;
+  src: url("/static/fonts/Inter-Bold.woff2"); }
+
+@font-face {
+  font-family: 'Inter UI';
+  font-weight: 700;
+  font-style: italic;
+  src: url("/static/fonts/Inter-BoldItalic.woff2"); }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
