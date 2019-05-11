@@ -4,6 +4,11 @@
     width: 100vw;
     font-family: $font;
     height: 827px;
+    position: relative;
+    .anchor{
+        position: absolute;
+        top: -90px;
+    }
     .services{
         width: $width;
         margin: 0 auto;

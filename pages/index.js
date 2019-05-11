@@ -7,6 +7,7 @@ import Factoids from '../components/index/Factoids'
 import Promises from '../components/index/Promises'
 import Services from '../components/index/Services'
 import Recomendations from '../components/index/Recomendations'
+import Map from '../components/index/Map'
 import '../css/style.scss'
 
 
@@ -28,6 +29,7 @@ class Index extends React.Component{
                 <Promises />
                 <Services />
                 <Recomendations />
+                <Map />
             </div>
         )
     }

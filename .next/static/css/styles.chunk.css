@@ -32,6 +32,8 @@
           line-height: 23px;
           text-decoration: none;
           color: black; }
+          ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg ._1q2MbpR-8YiDZIqs2_NqPg a:active {
+            color: #FFC700; }
         ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg ._1q2MbpR-8YiDZIqs2_NqPg ._1D8pUt6lpRWrfu1aFyYIvi {
           position: relative;
           height: 100%; }
@@ -162,7 +164,11 @@
 ._1nBNq0CpJCBE2e5XdeAb8G {
   width: 100vw;
   font-family: "Inter UI";
-  height: 1130px; }
+  height: 1130px;
+  position: relative; }
+  ._1nBNq0CpJCBE2e5XdeAb8G .TQmPXzylsmgsmUeSI4w8r {
+    position: absolute;
+    top: -90px; }
   ._1nBNq0CpJCBE2e5XdeAb8G ._2gKXSglENg-RdbqAAX377- {
     width: 1236px;
     margin: 0 auto; }
@@ -222,7 +228,11 @@
 ._2rHGVqq8zdq_rfL1-j3stL {
   width: 100vw;
   font-family: "Inter UI";
-  height: 827px; }
+  height: 827px;
+  position: relative; }
+  ._2rHGVqq8zdq_rfL1-j3stL ._3dlbL3Uht5BGkHUe05PIvH {
+    position: absolute;
+    top: -90px; }
   ._2rHGVqq8zdq_rfL1-j3stL ._2hqb4R157uTBjkcXJNOIqk {
     width: 1236px;
     margin: 0 auto; }
@@ -318,6 +328,82 @@
         font-size: 23px;
         line-height: 28px;
         color: white; }
+
+.K51w0IIiDDV1N_CujDwvo {
+  width: 100vw;
+  height: 882px;
+  position: relative;
+  font-family: "Inter UI"; }
+  .K51w0IIiDDV1N_CujDwvo ._2LZt3twa7WltUOm0yGQuA9 {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #5C2C00;
+    opacity: 0.51; }
+  .K51w0IIiDDV1N_CujDwvo iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(92, 44, 0, 0.51); }
+  .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    width: 40vw;
+    height: 100%;
+    padding-left: 111px;
+    background-color: rgba(52, 17, 8, 0.9);
+    box-sizing: border-box; }
+    .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 h1 {
+      font-weight: 700;
+      padding-top: 95px;
+      font-size: 50px;
+      line-height: 55px;
+      /* identical to box height */
+      letter-spacing: -0.02em;
+      color: white; }
+    .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 .N6f6qiDhxxQXnQfhw-sqC {
+      font-size: 22px;
+      line-height: 26px;
+      color: white;
+      padding-top: 87px;
+      padding-bottom: 25px; }
+      .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 .N6f6qiDhxxQXnQfhw-sqC ._1uLMCyV6U9_SiCzBSVhLL2 {
+        margin-bottom: 25px; }
+      .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 .N6f6qiDhxxQXnQfhw-sqC ._20a4g0JvyAr7rjznS-jZmX span {
+        display: block; }
+        .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 .N6f6qiDhxxQXnQfhw-sqC ._20a4g0JvyAr7rjznS-jZmX span:first-of-type {
+          padding-bottom: 7px; }
+    .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 ._2tSUSE5SILmkTHUTwgzCmP {
+      padding-bottom: 35px; }
+      .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 ._2tSUSE5SILmkTHUTwgzCmP ._3E-275xlBclTafWH6YKYRB {
+        display: flex;
+        padding-bottom: 8px; }
+        .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 ._2tSUSE5SILmkTHUTwgzCmP ._3E-275xlBclTafWH6YKYRB:first-of-type {
+          padding-bottom: 15px; }
+        .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 ._2tSUSE5SILmkTHUTwgzCmP ._3E-275xlBclTafWH6YKYRB img {
+          transform: translateY(3px);
+          padding-right: 7px;
+          height: 18px; }
+        .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 ._2tSUSE5SILmkTHUTwgzCmP ._3E-275xlBclTafWH6YKYRB span {
+          color: white;
+          font-size: 22px; }
+          .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 ._2tSUSE5SILmkTHUTwgzCmP ._3E-275xlBclTafWH6YKYRB span:first-of-type {
+            line-height: 26px; }
+    .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 .pSny-47382S3dCETUrPIZ {
+      display: flex;
+      align-items: center; }
+      .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 .pSny-47382S3dCETUrPIZ img {
+        transform: translateY(3px);
+        width: 20px;
+        height: 24px;
+        padding-right: 7px; }
+      .K51w0IIiDDV1N_CujDwvo ._3seFlRUHZRMfRgbiLYoku9 .pSny-47382S3dCETUrPIZ span {
+        color: white;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px; }
 
 @font-face {
   font-family: 'Inter UI';
@@ -415,6 +501,7 @@ table {
   border-spacing: 0; }
 
 body {
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 

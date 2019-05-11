@@ -5,6 +5,7 @@ import css from '../../css/index/promises.scss'
 export default () => {
     return(
         <div className={css.promisesWrapper}>
+            <div className={css.anchor} id='promises'></div>
             <style JSX>
                 {`
                     .promisesBG{

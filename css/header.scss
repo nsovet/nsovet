@@ -35,6 +35,9 @@
                     line-height: 23px;
                     text-decoration: none;
                     color: black;
+                    &:active{
+                        color: #FFC700;
+                    }
                 } 
                 .headerMenuActive{
                     position: relative;

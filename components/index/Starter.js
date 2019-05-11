@@ -5,7 +5,7 @@ import css from '../../css/index/starter.scss'
 
 export default () => {
     return(
-        <div className={css.starterWrapper}>
+        <div className={css.starterWrapper} id='about'>
             <style JSX>
                 {`
                     .starterBG{

@@ -4,7 +4,8 @@ import css from '../../css/index/services.scss'
 
 export default () => {
     return(
-        <div className={css.servicesWrapper}>
+        <div className={css.servicesWrapper} >
+            <div className={css.anchor} id='services'></div>
             <div className={css.services}>
                 <h1>Наши услуги:</h1>
                 <div className={css.servicesItems}>
