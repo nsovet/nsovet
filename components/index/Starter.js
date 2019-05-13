@@ -27,7 +27,7 @@ export default () => {
                 <div className={css.starterInfo}>
                     <h1>Мы за безопасный<br/>и прибыльный бизнес</h1>
                     <p>Мы находимся на рынке более 10 лет и имеем <span>огромный опыт работы</span> с налоговыми органами и судебными инстанциями</p>
-                    <a className={css.starterButton} href=''><span>Услуги</span></a>
+                    <a className={css.starterButton} href='#services'><span>Услуги</span></a>
                 </div>
             </div>
         </div>

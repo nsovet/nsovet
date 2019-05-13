@@ -32,8 +32,6 @@
           line-height: 23px;
           text-decoration: none;
           color: black; }
-          ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg ._1q2MbpR-8YiDZIqs2_NqPg a:active {
-            color: #FFC700; }
         ._1GsOjDqIVfQzE0PTy144LV ._2J3Hrr6CpxaPXf0KNc2Yb_ .BUJipB3UbF7PpbXU__Gxg ._1q2MbpR-8YiDZIqs2_NqPg ._1D8pUt6lpRWrfu1aFyYIvi {
           position: relative;
           height: 100%; }
@@ -66,6 +64,117 @@
           font-weight: 700;
           color: black;
           text-decoration: none; }
+
+._1zAOdYmqtk3VjbRbw2vgHW {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 86px;
+  font-family: "Inter UI";
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+  ._1zAOdYmqtk3VjbRbw2vgHW span {
+    font-weight: 500;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.9); }
+    ._1zAOdYmqtk3VjbRbw2vgHW span:first-of-type {
+      width: 765px; }
+    ._1zAOdYmqtk3VjbRbw2vgHW span:last-of-type {
+      width: 520px; }
+  ._1zAOdYmqtk3VjbRbw2vgHW a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    width: 124px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    padding: 13px 0 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    transition: 0.2s; }
+    ._1zAOdYmqtk3VjbRbw2vgHW a:hover {
+      transition: 0.2s;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25); }
+
+.yD1aSexfM3oC3lJ1-SW_n {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 86px;
+  font-family: "Inter UI";
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+  .yD1aSexfM3oC3lJ1-SW_n span {
+    font-weight: 500;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.9); }
+
+._3ftQtQR6znsoDc761FIo3L {
+  width: 1236px;
+  margin: 92px auto 100px; }
+  ._3ftQtQR6znsoDc761FIo3L ._28MYut_9o9BgAl7jNWs-T3 {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter UI";
+    padding: 0 3px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+    ._3ftQtQR6znsoDc761FIo3L ._28MYut_9o9BgAl7jNWs-T3 span {
+      text-align: left;
+      font-size: 13px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.32); }
+      ._3ftQtQR6znsoDc761FIo3L ._28MYut_9o9BgAl7jNWs-T3 span:first-of-type {
+        width: 667px; }
+      ._3ftQtQR6znsoDc761FIo3L ._28MYut_9o9BgAl7jNWs-T3 span:nth-child(2) {
+        text-align: left; }
+      ._3ftQtQR6znsoDc761FIo3L ._28MYut_9o9BgAl7jNWs-T3 span:last-child {
+        text-align: right;
+        width: 480px; }
+  ._3ftQtQR6znsoDc761FIo3L ._1sdGoGf6UUD8iCRp4KGzZV {
+    display: none; }
+
+.uGE2IlIOaK3g_mdjYLIbi {
+  margin: 46px auto 0;
+  width: 624px;
+  height: 34px;
+  display: flex;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 34px;
+  font-family: "Inter UI"; }
+  .uGE2IlIOaK3g_mdjYLIbi ._2Kgm7c5laEwLC5031f8W-O {
+    user-select: none;
+    background-color: #4F261C;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    transition: 0.2s; }
+    .uGE2IlIOaK3g_mdjYLIbi ._2Kgm7c5laEwLC5031f8W-O:first-of-type {
+      border-radius: 16px 0px 0px 16px; }
+    .uGE2IlIOaK3g_mdjYLIbi ._2Kgm7c5laEwLC5031f8W-O:last-of-type {
+      border-radius: 0px 16px 16px 0px; }
+    .uGE2IlIOaK3g_mdjYLIbi ._2Kgm7c5laEwLC5031f8W-O#_3-C_ilEiVucM_lrVQ_k-j0 {
+      transition: 0.2s;
+      background-color: white;
+      border: 1px solid #341108;
+      padding-top: 9px;
+      color: #4F261C; }
+
+._1Bs8LClXfuPBN2u6ca1O7Z {
+  width: 1236px;
+  margin: 0 auto;
+  padding: 145px 0 0;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Inter UI"; }
 
 ._1BDeTWFB710CNfQQ32IuZf {
   width: 100vw;
@@ -252,6 +361,7 @@
       display: flex;
       justify-content: space-between; }
       ._2rHGVqq8zdq_rfL1-j3stL ._2hqb4R157uTBjkcXJNOIqk .BMkYUbNqRZ4IhMA1X2K8K ._3IJ-pXEJwLFyuIgaj39yRP {
+        cursor: pointer;
         width: 314px;
         display: flex;
         flex-flow: column;

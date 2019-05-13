@@ -1,0 +1,32 @@
+@import './../variables';
+
+.serviceTableWrapper{
+    width: 1236px;
+    margin: 92px auto 100px;
+    .serviceTableHeader{
+        display: flex;
+        justify-content: space-between;
+        font-family: $font;
+        padding: 0 3px 10px;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        span{
+            text-align: left;
+            font-size: 13px;
+            font-weight: 500;
+            color: rgba(0,0,0,0.32);
+            &:first-of-type{
+                width: 667px;
+            }
+            &:nth-child(2){
+                text-align: left;
+            }
+            &:last-child{
+                text-align: right;
+                width: 480px;
+            }
+        }
+    }
+    .hide{
+        display: none;
+    }
+}

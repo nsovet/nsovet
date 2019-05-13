@@ -48,7 +48,7 @@ export default () => {
                         <p>Финансовые гарантии по договору</p>
                     </div>
                 </div>
-                <a className={css.promisesCall} href=''>
+                <a className={css.promisesCall} href='tel:8-499-323-43-95'>
                     <img src='/static/phoneWhite.svg' />
                     <span>Связаться с нами</span>
                 </a>

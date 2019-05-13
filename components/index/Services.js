@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Link from 'next/link'
 import css from '../../css/index/services.scss'
 
 export default () => {
@@ -17,12 +18,14 @@ export default () => {
                         <img src='/static/services/enterprenuers.png' />
                         <h2>Индивидуальные предпрениматели</h2>
                     </div>
-                    <div className={css.servicesItem}>
-                        <img src='/static/services/organisations.png' />
-                        <h2>Юридические лица</h2>
-                    </div>
+                    <Link href="/taxes">
+                        <div className={css.servicesItem}>
+                            <img src='/static/services/organisations.png' />
+                            <h2>Юридические лица</h2>
+                        </div>
+                    </Link>
                 </div>
-                <a className={css.servicesCall} href=''>
+                <a className={css.servicesCall} href='tel:8-499-323-43-95'>
                     <img src='/static/phoneWhite.svg' />
                     <span>Связаться с нами</span>
                 </a>

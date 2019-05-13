@@ -11,10 +11,10 @@ export default () => {
                     <div className={css.headerMenu}>
                         <a 
                             className={css.headerMenuActive}
-                            href='#about'>О нас</a>
-                        <a href='#promises'>Приемущества</a>
-                        <a href='#services'>Услуги</a>
-                        <a href='#map'>Контакты</a>
+                            href='/#about'>О нас</a>
+                        <a href='/#promises'>Приемущества</a>
+                        <a href='/#services'>Услуги</a>
+                        <a href='/#map'>Контакты</a>
                     </div>
                     <a className={css.headerCallWrapper} href='tel:8-499-323-43-95'>
                         <img src='/static/phone.svg' />

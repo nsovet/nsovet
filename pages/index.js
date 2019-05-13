@@ -14,6 +14,10 @@ import '../css/style.scss'
 class Index extends React.Component{
     constructor(props){
         super(props)
+
+        this.state = {
+            inView: 'about'
+        }
     }
 
     render(){
@@ -25,7 +29,7 @@ class Index extends React.Component{
 
                 <Header />
                 <Starter />
-                <Factoids />
+                <Factoids/>
                 <Promises />
                 <Services />
                 <Recomendations />
