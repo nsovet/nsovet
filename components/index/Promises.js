@@ -10,7 +10,7 @@ export default () => {
                 {`
                     .promisesBG{
                         width: 100vw;
-                        height: 1130px;
+                        height: 100%;
                         background: url('/static/promises.png') no-repeat;
                         background-size: cover;
                         background-position: center;

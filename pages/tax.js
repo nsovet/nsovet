@@ -14,7 +14,14 @@ const Tax = withRouter(props => {
             e = elem
     })
     return (
-        <div style={{backgroundColor:'#DCC3A6'}}>
+        <div>
+            <style JSX>
+                {`
+                    body{
+                        background-color: #DCC3A6;
+                    }
+                `}
+            </style>
             <Head>
                     <title>Налоговый советник | {e.name}</title>
             </Head>

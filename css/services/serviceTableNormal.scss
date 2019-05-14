@@ -1,0 +1,34 @@
+@import '../variables.scss';
+
+.servicesTableWrapper{
+  font-family: $font;
+  border-top: 1px solid rgba(0,0,0,0.2);
+  width: 1236px;
+  margin: 45px auto 0;
+  background-color: #DCC3A6;
+  .servicesCall{
+      width: 296px;
+      height: 68px;
+      display: flex;
+      margin: 50px auto 0;
+      justify-content: center;
+      align-items: center;
+      background: #4F261C;
+      box-shadow: 4px 4px 44px rgba(98, 48, 36, 0.44);
+      border-radius: 20px;
+      text-decoration: none;
+      span{
+          text-decoration: none;
+          padding-left: 6px;
+          display: flex;
+          align-self: center;
+          font-weight: 600;
+          font-size: 23px;
+          line-height: 28px;
+          color: white;
+      }
+  }
+}
+.none{
+  display: none;
+}

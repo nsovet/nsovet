@@ -1,10 +1,12 @@
 import Head from 'next/head'
 
 import Header from '../components/Header'
-import ServiceTable from '../components/services/ServiceTable'
+// import ServiceTable from '../components/services/ServiceTable'
 import ServiceSwitch from '../components/services/ServiceSwitch'
 import ServiceHeading from '../components/services/ServiceHeading'
-import data from './enterprenuer.json'
+import ServiceTableNormal from '../components/services/ServiceTableNormal'
+import ServiceTableExpandable from '../components/services/ServiceTableExpandable'
+import data from './individuals.json'
 import '../css/style.scss'
 
 
@@ -23,9 +25,18 @@ class Index extends React.Component{
                 <title>Налоговый советник | Индивидуальные предприниматели</title>
             </Head>
             <Header />
+            <style JSX>
+                {`
+                    body{
+                        background-color: #DCC3A6;
+                    }
+                `}
+            </style>
             <ServiceHeading heading='Индивидуальные предприниматели'/>
             <ServiceSwitch onClick={this.handleChange} account={this.state.account}/>
-            <ServiceTable account={this.state.account} data={this.state.data}/>
+            <ServiceTableNormal isAccount={this.state.account} data={this.state.data.account}/>
+            <ServiceTableExpandable isAccount={this.state.account} data={this.state.data.legal}/>
+            {/* <ServiceTable account={this.state.account} data={this.state.data}/> */}
         </div>
     )
   };

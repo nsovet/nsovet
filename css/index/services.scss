@@ -1,68 +1,144 @@
 @import '../variables.scss';
 
-.servicesWrapper{
-    width: 100vw;
-    font-family: $font;
-    height: 827px;
-    position: relative;
-    .anchor{
-        position: absolute;
-        top: -90px;
-    }
-    .services{
-        width: $width;
-        margin: 0 auto;
-        h1{
-            padding-top: 62px;
-            font-weight: 600;
-            font-size: 50px;
-            line-height: 66px;/* identical to box height */
-            text-align: center;
-            letter-spacing: -0.02em;
+@media (min-width: 1024px) and (max-width: 1439px){
+    .servicesWrapper{
+        width: 100vw;
+        font-family: $font;
+        height: 681px;
+        position: relative;
+        background-color: #8A6E59;
+        .anchor{
+            position: absolute;
+            top: -90px;
         }
-        .servicesItems{
-            padding-top: 78px;
-            padding-bottom: 145px;
-            width: 1016px;
+        .services{
+            width: 924px;
             margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            .servicesItem{
-                cursor: pointer;
-                width: 314px;
+            h1{
+                padding-top: 50px;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 131.56%;
+                color: white;
+                text-align: center;
+                letter-spacing: -0.02em;
+            }
+            .servicesItems{
+                padding-top: 93px;
+                padding-bottom: 67px;
+                width: 924px;
+                margin: 0 auto;
                 display: flex;
-                flex-flow: column;
+                justify-content: space-between;
+                .servicesItem{
+                    cursor: pointer;
+                    width: 282px;
+                    height: 290px;
+                    display: flex;
+                    flex-flow: column;
+                    background-color: white;
+                    border-radius: 13px 13px 0px 0px;
+                    h2{
+                        padding-left: 19px;
+                        padding-top: 14px;
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 131.56%;
+                        color: #4F261C;
+                    }
+                }
+            }
+            .servicesCall{
+                width: 296px;
+                height: 68px;
+                display: flex;
+                margin: 0 auto;
+                justify-content: center;
                 align-items: center;
-                h2{
-                    padding-left: 20px;
-                    padding-top: 15px;
-                    font-weight: 700;
-                    font-size: 28px;
-                    line-height: 37px;
-                    color: #4F261C;
+                background: #4F261C;
+                box-shadow: 4px 4px 44px rgba(98, 48, 36, 0.44);
+                border-radius: 20px;
+                text-decoration: none;
+                span{
+                    text-decoration: none;
+                    padding-left: 6px;
+                    display: flex;
+                    align-self: center;
+                    font-weight: 600;
+                    font-size: 23px;
+                    line-height: 28px;
+                    color: white;
                 }
             }
         }
-        .servicesCall{
-            width: 296px;
-            height: 68px;
-            display: flex;
+    }
+}
+
+@media (min-width: 1440px){
+    .servicesWrapper{
+        width: 100vw;
+        font-family: $font;
+        height: 827px;
+        position: relative;
+        .anchor{
+            position: absolute;
+            top: -90px;
+        }
+        .services{
+            width: $width;
             margin: 0 auto;
-            justify-content: center;
-            align-items: center;
-            background: #4F261C;
-            box-shadow: 4px 4px 44px rgba(98, 48, 36, 0.44);
-            border-radius: 20px;
-            text-decoration: none;
-            span{
-                text-decoration: none;
-                padding-left: 6px;
-                display: flex;
-                align-self: center;
+            h1{
+                padding-top: 62px;
                 font-weight: 600;
-                font-size: 23px;
-                line-height: 28px;
-                color: white;
+                font-size: 50px;
+                line-height: 66px;/* identical to box height */
+                text-align: center;
+                letter-spacing: -0.02em;
+            }
+            .servicesItems{
+                padding-top: 78px;
+                padding-bottom: 145px;
+                width: 1016px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                .servicesItem{
+                    cursor: pointer;
+                    width: 314px;
+                    display: flex;
+                    flex-flow: column;
+                    align-items: center;
+                    h2{
+                        padding-left: 20px;
+                        padding-top: 15px;
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 37px;
+                        color: #4F261C;
+                    }
+                }
+            }
+            .servicesCall{
+                width: 296px;
+                height: 68px;
+                display: flex;
+                margin: 0 auto;
+                justify-content: center;
+                align-items: center;
+                background: #4F261C;
+                box-shadow: 4px 4px 44px rgba(98, 48, 36, 0.44);
+                border-radius: 20px;
+                text-decoration: none;
+                span{
+                    text-decoration: none;
+                    padding-left: 6px;
+                    display: flex;
+                    align-self: center;
+                    font-weight: 600;
+                    font-size: 23px;
+                    line-height: 28px;
+                    color: white;
+                }
             }
         }
     }

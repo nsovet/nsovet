@@ -1,0 +1,32 @@
+@import '../variables.scss';
+
+.tableRowWrapper{
+    display: flex;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: black;
+    border-bottom: 1px solid #B09C85;
+    div{
+    text-align: right;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    }
+    .rowTitle{
+    text-align: left;
+    width: 50.4854369%;
+    padding-right: 10px;
+    }
+    .rowPrice{
+    width: 10.6796116%;
+    }
+    .rowTax{
+    width: 17.4757281%;
+    }
+    .rowFee{
+    width: 24.5954692%;
+    }
+    &:last-of-type{
+        border-bottom: 0px solid #B09C85
+    }
+}

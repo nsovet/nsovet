@@ -21,6 +21,13 @@ class Taxes extends React.Component {
                     <title>Налоговый советник | 3-НДФЛ</title>
                 </Head>
                 <Header />
+                <style JSX>
+                    {`
+                        body{
+                            background-color: #DCC3A6;
+                        }
+                    `}
+                </style>
                 <TaxesWrapper services={this.state.data.services} />
             </div>
         )

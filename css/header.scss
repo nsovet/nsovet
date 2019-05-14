@@ -1,79 +1,162 @@
 @import 'variables.scss';
 
-.headerWrapper{
-    width: 100vw;
-    height: 90px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
-    font-family: $font;
-    position: fixed;
-    z-index: 10;
-    background-color: #fff;
-    .header{
-        width: 1236px;
-        margin: 0 auto;
-        padding-top: 17px;
-        display: flex;
-        justify-content: space-between;
-        .headerLogo{
-            display: block;
-            width: 153px;
-            height: 51px;
-        }
-        .headerMenuWrapper{
-            height: 51px;
+
+@media (min-width: 1024px) and (max-width: 1439px){
+    .headerWrapper{
+        width: 100vw;
+        height: 90px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+        font-family: $font;
+        position: fixed;
+        z-index: 100;
+        background-color: #fff;
+        .header{
+            width: 924px;
+            margin: 0 auto;
+            padding-top: 17px;
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            .headerMenu{
-                width: 454px;
+            .headerLogo{
+                display: block;
+                width: 120px;
+                height: 40px;
+                padding-top: 6px;
+            }
+            .headerMenuWrapper{
+                height: 51px;
                 display: flex;
                 justify-content: space-between;
-                padding-right: 34px;
-                a{
-                    font-weight: 600;
-                    font-size: 19px;
-                    line-height: 23px;
-                    text-decoration: none;
-                    color: black;
-                } 
-                .headerMenuActive{
-                    position: relative;
-                    height: 100%;
-                    &::after{
-                        content: '';
-                        position: absolute;
-                        display: block;
-                        width: 100%;
-                        height: 6px;
-                        top: 53px;
-                        background-color: #4F261C;
+                align-items: center;
+                .headerMenu{
+                    width: 454px;
+                    display: flex;
+                    justify-content: space-between;
+                    padding-right: 34px;
+                    a{
+                        font-weight: 600;
+                        font-size: 19px;
+                        line-height: 23px;
+                        text-decoration: none;
+                        color: black;
+                    } 
+                    .headerMenuActive{
+                        position: relative;
+                        height: 100%;
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            display: block;
+                            width: 100%;
+                            height: 6px;
+                            top: 53px;
+                            background-color: #4F261C;
+                        }
                     }
                 }
-            }
-            .headerCallWrapper{
-                display: block;
-                width: 234px;
-                height: 51px;
-                background: #FFC700;
-                box-shadow: 4px 4px 22px rgba(98, 48, 36, 0.16);
-                border-radius: 20px;
-                display: flex;
-                justify-content: center;
-                align-content: center;
-                text-decoration: none;
-                img{
-                    padding-right: 7px;
-                }
-                span{
+                .headerCallWrapper{
+                    display: block;
+                    width: 234px;
+                    height: 51px;
+                    background: #FFC700;
+                    box-shadow: 4px 4px 22px rgba(98, 48, 36, 0.16);
+                    border-radius: 20px;
                     display: flex;
-                    align-self: center;
-                    font-size: 18px;
-                    line-height: 22px;
-                    font-weight: 700;
-                    color: black;
+                    justify-content: center;
+                    align-content: center;
                     text-decoration: none;
+                    img{
+                        padding-right: 7px;
+                    }
+                    span{
+                        display: flex;
+                        align-self: center;
+                        font-size: 18px;
+                        line-height: 22px;
+                        font-weight: 700;
+                        color: black;
+                        text-decoration: none;
+                    }
                 }
             }
         }
     }
 }
+
+@media (min-width: 1440px){
+    .headerWrapper{
+        width: 100vw;
+        height: 90px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+        font-family: $font;
+        position: fixed;
+        z-index: 10;
+        background-color: #fff;
+        .header{
+            width: 1236px;
+            margin: 0 auto;
+            padding-top: 17px;
+            display: flex;
+            justify-content: space-between;
+            .headerLogo{
+                display: block;
+                width: 153px;
+                height: 51px;
+            }
+            .headerMenuWrapper{
+                height: 51px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .headerMenu{
+                    width: 454px;
+                    display: flex;
+                    justify-content: space-between;
+                    padding-right: 34px;
+                    a{
+                        font-weight: 600;
+                        font-size: 19px;
+                        line-height: 23px;
+                        text-decoration: none;
+                        color: black;
+                    } 
+                    .headerMenuActive{
+                        position: relative;
+                        height: 100%;
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            display: block;
+                            width: 100%;
+                            height: 6px;
+                            top: 53px;
+                            background-color: #4F261C;
+                        }
+                    }
+                }
+                .headerCallWrapper{
+                    display: block;
+                    width: 234px;
+                    height: 51px;
+                    background: #FFC700;
+                    box-shadow: 4px 4px 22px rgba(98, 48, 36, 0.16);
+                    border-radius: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    text-decoration: none;
+                    img{
+                        padding-right: 7px;
+                    }
+                    span{
+                        display: flex;
+                        align-self: center;
+                        font-size: 18px;
+                        line-height: 22px;
+                        font-weight: 700;
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }}

@@ -17,5 +17,5 @@ export default ({services}) => {
                 {services.map(elem => <TaxesCard data={elem} key={elem.id}/>)}
             </div>
        </div>
-   ) 
+   )
 }

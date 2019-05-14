@@ -10,7 +10,7 @@ export default () => {
                 <div className={css.headerMenuWrapper}>
                     <div className={css.headerMenu}>
                         <a 
-                            className={css.headerMenuActive}
+                            // className={css.headerMenuActive}
                             href='/#about'>О нас</a>
                         <a href='/#promises'>Приемущества</a>
                         <a href='/#services'>Услуги</a>

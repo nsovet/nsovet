@@ -30,7 +30,7 @@ module.exports = {"headerWrapper":"_1GsOjDqIVfQzE0PTy144LV","header":"_2J3Hrr6Cp
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557751822606");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557837243036");
           });
       }
     }
@@ -68,7 +68,7 @@ module.exports = {"factoidsWrapper":"_1kU9lyierBqlNdYh83wAWu","factoids":"_1PdhG
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557758689200");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841353093");
           });
       }
     }
@@ -106,7 +106,7 @@ module.exports = {"mapWrapper":"K51w0IIiDDV1N_CujDwvo","mapWrapperColor":"_2LZt3
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557758689298");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841353200");
           });
       }
     }
@@ -144,7 +144,7 @@ module.exports = {"promisesWrapper":"_1nBNq0CpJCBE2e5XdeAb8G","anchor":"TQmPXzyl
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557758689249");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841353137");
           });
       }
     }
@@ -182,7 +182,7 @@ module.exports = {"recomendationsWrapper":"_3wDPAyxiZWl22uP4rgW7DJ","recomendati
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557758689158");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841352983");
           });
       }
     }
@@ -220,7 +220,7 @@ module.exports = {"servicesWrapper":"_2rHGVqq8zdq_rfL1-j3stL","anchor":"_3dlbL3U
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557758689224");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841353062");
           });
       }
     }
@@ -258,7 +258,7 @@ module.exports = {"starterWrapper":"_1BDeTWFB710CNfQQ32IuZf","starter":"_2rpBUzv
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557758689181");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841353023");
           });
       }
     }
@@ -274,7 +274,7 @@ module.exports = {"starterWrapper":"_1BDeTWFB710CNfQQ32IuZf","starter":"_2rpBUzv
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"serviceHeading":"_1Bs8LClXfuPBN2u6ca1O7Z"};;
+module.exports = {"taxesWrapperHeader":"_2OgTja8k__TNLY1yeY7MqM"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -296,7 +296,7 @@ module.exports = {"serviceHeading":"_1Bs8LClXfuPBN2u6ca1O7Z"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557759544329");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841359355");
           });
       }
     }
@@ -334,7 +334,7 @@ module.exports = {"serviceRow":"_1zAOdYmqtk3VjbRbw2vgHW"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557759486124");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841359377");
           });
       }
     }
@@ -372,7 +372,121 @@ module.exports = {"serviceRow":"yD1aSexfM3oC3lJ1-SW_n"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557759486131");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841359418");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./css/services/serviceRowLegalContent.scss":
+/*!**************************************************!*\
+  !*** ./css/services/serviceRowLegalContent.scss ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"none":"_20tJkfsA8g4AgPVJJ_wOtF","serviceRowContent":"O5pJdJVv8vu1-h1npp_NV","serviceRowDescription":"_3mOBXTzrFrFF2aFUPh_2Ix","serviceRowTable":"_3wXHFPpDILSKJF_RNmi54D","serviceRowTableHeading":"cG1bhICISyU_JRrPXAyaN","rowTitle":"_3-2o6i0vwYe8jfX5hOXef","rowPrice":"_3mf3-mBaOl-UhqOQeiRoXG","rowTax":"aaFVhgWw_IQ9D0sORUSSW","rowFee":"_2j_u_IUeHxlAaa2myX_zXm"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841359411");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./css/services/serviceRowLegalContentTableRow.scss":
+/*!**********************************************************!*\
+  !*** ./css/services/serviceRowLegalContentTableRow.scss ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"tableRowWrapper":"_2LuN9Tuvjz56o2f9SQ1SKW","rowTitle":"_1zJAEh7Znn5vSyRqiRIELh","rowPrice":"_1CLHtyU17WbYVmJBMjQTSD","rowTax":"_391qQCldH9ZNIczDUUFVSX","rowFee":"rA55_pLxYhzQjuqVM8mdV"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841359443");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./css/services/serviceRowLegalHeading.scss":
+/*!**************************************************!*\
+  !*** ./css/services/serviceRowLegalHeading.scss ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"serviceRowHeading":"_1YkKW2IGimGV-_c4iYBGhW","rotate":"_1c23ZdQsy_bdu8Absj4EQ4"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841359389");
           });
       }
     }
@@ -410,7 +524,7 @@ module.exports = {"serviceSwitchWrapper":"uGE2IlIOaK3g_mdjYLIbi","serviceSwitchI
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557760074229");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841359367");
           });
       }
     }
@@ -418,15 +532,15 @@ module.exports = {"serviceSwitchWrapper":"uGE2IlIOaK3g_mdjYLIbi","serviceSwitchI
 
 /***/ }),
 
-/***/ "./css/services/serviceTable.scss":
-/*!****************************************!*\
-  !*** ./css/services/serviceTable.scss ***!
-  \****************************************/
+/***/ "./css/services/serviceTableExpandable.scss":
+/*!**************************************************!*\
+  !*** ./css/services/serviceTableExpandable.scss ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"serviceTableWrapper":"_3ftQtQR6znsoDc761FIo3L","serviceTableHeader":"_28MYut_9o9BgAl7jNWs-T3","hide":"_1sdGoGf6UUD8iCRp4KGzZV"};;
+module.exports = {"none":"_3dhjlg8jBHdWaaKrBsfJ7u","serviceTableWrapper":"Yc6eTrSe18WnGet_jqXg0"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -448,7 +562,45 @@ module.exports = {"serviceTableWrapper":"_3ftQtQR6znsoDc761FIo3L","serviceTableH
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557759549506");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841359300");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./css/services/serviceTableNormal.scss":
+/*!**********************************************!*\
+  !*** ./css/services/serviceTableNormal.scss ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"servicesTableWrapper":"_2jVXPCcd1gYmEbjft47s1H","servicesCall":"_1rnasSgcUjYbLwlBY_b6Qn","none":"BNh2wcYNpbJFfx537TC66"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841359290");
           });
       }
     }
@@ -485,7 +637,159 @@ module.exports = {"serviceTableWrapper":"_3ftQtQR6znsoDc761FIo3L","serviceTableH
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557570103973");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557834340308");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./css/taxes/taxesCard.scss":
+/*!**********************************!*\
+  !*** ./css/taxes/taxesCard.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"taxesCard":"_2b-lrystqqhCl_NGWgyQFr","illustration":"_3_6Z9_3NaNBtxDyxTpp_u_","taxesCardTagsWrapper":"_2zwrUh2_hmRqEzmzNGlh5u","taxesCardTag":"_366T-bA42Pyg4Tn9GIrCB1"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1557838232746");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./css/taxes/taxesPage.scss":
+/*!**********************************!*\
+  !*** ./css/taxes/taxesPage.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"taxesPage":"_1riD_NmAHqiezca81WrQT7"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1557838410483");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./css/taxes/taxesPageCard.scss":
+/*!**************************************!*\
+  !*** ./css/taxes/taxesPageCard.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"cardWrapper":"_3OM9MxBSbIiLVerhKSIVnP","cardControls":"_3HQWxrDmkTaor26pfLrQwS","cardContent":"_2CHFUR38ELTdhmkYy151Ec","cardContentTags":"_2Y45qognsYv2zoG_SU7vlx","cardContentTag":"T3Z2ISZOciWAmomK0AXvI","cardContentDocsWrapper":"_3PbCsGwo9oUxSHWOwdmqo9","cardContentDocsControlls":"_98EuPsG47VQlrgbjeTAT1","cardContentControllsActive":"_39y4R9FUL_idlmONCg5NeP","cardContentControllsInactive":"_2l-IUUf9vLRCzPOV700j_S"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1557841289932");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./css/taxes/taxesWrapper.scss":
+/*!*************************************!*\
+  !*** ./css/taxes/taxesWrapper.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"taxesWrapper":"_2izmYIB1xldhc4LZxzBMJM","taxesWrapperHeader":"_3JynlvfOZnP2LD1Wb15aJ5","taxesCardsWrapper":"q293GYz91Xiq7FNzPkLTv"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1557838151907");
           });
       }
     }

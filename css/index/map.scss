@@ -1,95 +1,194 @@
 @import '../variables.scss';
 
-.mapWrapper{
-    width: 100vw;
-    height: 882px;
-    position: relative;
-    font-family: $font;
-    .mapWrapperColor{
-        z-index: -1;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: #5C2C00;
-        opacity: 0.51;
-    }
-    iframe{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(92, 44, 0, 0.51);
-    }
-    .mapInfo{
-        position: absolute;
-        right: 0;
-        z-index: 10;
-        width: 40vw;
-        height: 100%;
-        padding-left: 111px;
-        background-color: rgba(52,17,8,0.9);
-        box-sizing: border-box;
-        h1{
-            font-weight: 700;
-            padding-top: 95px;
-            font-size: 50px;
-            line-height: 55px;/* identical to box height */
-            letter-spacing: -0.02em;
-            color: white;
+@media (min-width: 1024px) and (max-width: 1439px){
+    .mapWrapper{
+        width: 100vw;
+        height: 681px;
+        position: relative;
+        font-family: $font;
+        .mapWrapperColor{
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #5C2C00;
+            opacity: 0.51;
         }
-        .mapInfoAdressSchedule{
-            font-size: 22px;
-            line-height: 26px;
-            color: white;
-            padding-top: 87px;
-            padding-bottom: 25px; 
-            .mapInfoAdress{
-                margin-bottom: 25px;
+        iframe{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(92, 44, 0, 0.51);
+        }
+        .mapInfo{
+            position: absolute;
+            right: 0;
+            z-index: 10;
+            width: 40vw;
+            height: 100%;
+            padding-left:61px;
+            background-color: rgba(52,17,8,0.9);
+            box-sizing: border-box;
+            h1{
+                font-weight: 700;
+                padding-top: 64px;
+                font-size: 40px;
+                line-height: 110%;
+                letter-spacing: -0.02em;
+                color: white;
             }
-            .mapInfoSchedule{
-                span{
-                    display: block;
-                    &:first-of-type{
-                        padding-bottom: 7px;
+            .mapInfoAdressSchedule{
+                font-size: 20px;
+                line-height: 24px;
+                color: white;
+                padding-top: 51px;
+                padding-bottom: 45px; 
+                .mapInfoAdress{
+                    margin-bottom: 25px;
+                }
+                .mapInfoSchedule{
+                    span{
+                        display: block;
+                        &:first-of-type{
+                            padding-bottom: 7px;
+                        }
                     }
                 }
             }
-        }
-        .mapInfoPhones{
-            padding-bottom: 35px;
-            .mapInfoPhone{
-                display: flex;
-                padding-bottom: 8px;
-                &:first-of-type{
-                    padding-bottom: 15px;
+            .mapInfoPhones{
+                padding-bottom: 35px;
+                .mapInfoPhone{
+                    display: flex;
+                    padding-bottom: 8px;
+                    &:first-of-type{
+                        padding-bottom: 15px;
+                    }
+                    img{
+                        transform: translateY(3px);
+                        padding-right: 7px;
+                        height: 18px;
+                    }
+                    span{
+                        color: white;
+                        font-size: 20px;
+                        &:first-of-type{
+                            line-height: 24px;
+                        }
+                    }
                 }
+            }
+            .mapInfoEmail{
+                display: flex;
+                align-items: center;
                 img{
                     transform: translateY(3px);
+                    width: 20px;
+                    height: 24px;
                     padding-right: 7px;
-                    height: 18px;
                 }
                 span{
                     color: white;
-                    font-size: 22px;
-                    &:first-of-type{
-                        line-height: 26px;
-                    }
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 26px;
                 }
             }
         }
-        .mapInfoEmail{
-            display: flex;
-            align-items: center;
-            img{
-                transform: translateY(3px);
-                width: 20px;
-                height: 24px;
-                padding-right: 7px;
-            }
-            span{
+    }
+}
+
+@media (min-width: 1440px){
+    .mapWrapper{
+        width: 100vw;
+        height: 882px;
+        position: relative;
+        font-family: $font;
+        .mapWrapperColor{
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #5C2C00;
+            opacity: 0.51;
+        }
+        iframe{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(92, 44, 0, 0.51);
+        }
+        .mapInfo{
+            position: absolute;
+            right: 0;
+            z-index: 10;
+            width: 40vw;
+            height: 100%;
+            padding-left: 111px;
+            background-color: rgba(52,17,8,0.9);
+            box-sizing: border-box;
+            h1{
+                font-weight: 700;
+                padding-top: 95px;
+                font-size: 50px;
+                line-height: 55px;/* identical to box height */
+                letter-spacing: -0.02em;
                 color: white;
-                font-weight: 600;
+            }
+            .mapInfoAdressSchedule{
                 font-size: 22px;
                 line-height: 26px;
+                color: white;
+                padding-top: 87px;
+                padding-bottom: 25px; 
+                .mapInfoAdress{
+                    margin-bottom: 25px;
+                }
+                .mapInfoSchedule{
+                    span{
+                        display: block;
+                        &:first-of-type{
+                            padding-bottom: 7px;
+                        }
+                    }
+                }
+            }
+            .mapInfoPhones{
+                padding-bottom: 35px;
+                .mapInfoPhone{
+                    display: flex;
+                    padding-bottom: 8px;
+                    &:first-of-type{
+                        padding-bottom: 15px;
+                    }
+                    img{
+                        transform: translateY(3px);
+                        padding-right: 7px;
+                        height: 18px;
+                    }
+                    span{
+                        color: white;
+                        font-size: 22px;
+                        &:first-of-type{
+                            line-height: 26px;
+                        }
+                    }
+                }
+            }
+            .mapInfoEmail{
+                display: flex;
+                align-items: center;
+                img{
+                    transform: translateY(3px);
+                    width: 20px;
+                    height: 24px;
+                    padding-right: 7px;
+                }
+                span{
+                    color: white;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 26px;
+                }
             }
         }
     }
