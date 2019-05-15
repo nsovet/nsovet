@@ -1,10 +1,24 @@
 @import './../variables';
 
-.serviceRow{
-    align-items: center;
-    width: 1236px;
-    margin: 0 auto;
-    font-family: $font;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+
+@media (min-width: 1024px) and (max-width: 1439px){
+    .serviceRow{
+        align-items: center;
+        width: 924px;
+        margin: 0 auto;
+        font-family: $font;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+}
+
+@media (min-width: 1440px){
+    .serviceRow{
+        align-items: center;
+        width: 1236px;
+        margin: 0 auto;
+        font-family: $font;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
 }

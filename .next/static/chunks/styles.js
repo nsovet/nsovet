@@ -296,7 +296,7 @@ module.exports = {"taxesWrapperHeader":"_2OgTja8k__TNLY1yeY7MqM"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557841359355");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557842877287");
           });
       }
     }
@@ -334,7 +334,7 @@ module.exports = {"serviceRow":"_1zAOdYmqtk3VjbRbw2vgHW"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557841359377");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557843682822");
           });
       }
     }
@@ -372,7 +372,7 @@ module.exports = {"serviceRow":"yD1aSexfM3oC3lJ1-SW_n"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557841359418");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557843432724");
           });
       }
     }
@@ -410,7 +410,7 @@ module.exports = {"none":"_20tJkfsA8g4AgPVJJ_wOtF","serviceRowContent":"O5pJdJVv
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557841359411");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557918677876");
           });
       }
     }
@@ -448,7 +448,7 @@ module.exports = {"tableRowWrapper":"_2LuN9Tuvjz56o2f9SQ1SKW","rowTitle":"_1zJAE
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557841359443");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557918659158");
           });
       }
     }
@@ -486,7 +486,7 @@ module.exports = {"serviceRowHeading":"_1YkKW2IGimGV-_c4iYBGhW","rotate":"_1c23Z
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557841359389");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557918647985");
           });
       }
     }
@@ -524,7 +524,7 @@ module.exports = {"serviceSwitchWrapper":"uGE2IlIOaK3g_mdjYLIbi","serviceSwitchI
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557841359367");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557842964381");
           });
       }
     }
@@ -562,7 +562,7 @@ module.exports = {"none":"_3dhjlg8jBHdWaaKrBsfJ7u","serviceTableWrapper":"Yc6eTr
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557841359300");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557843582262");
           });
       }
     }
@@ -600,7 +600,7 @@ module.exports = {"servicesTableWrapper":"_2jVXPCcd1gYmEbjft47s1H","servicesCall
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557841359290");
+            injectCss(link, link.href.split("?")[0] + "?unix=1557843060104");
           });
       }
     }
@@ -638,158 +638,6 @@ module.exports = {"servicesTableWrapper":"_2jVXPCcd1gYmEbjft47s1H","servicesCall
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
             injectCss(link, link.href.split("?")[0] + "?unix=1557834340308");
-          });
-      }
-    }
-  
-
-/***/ }),
-
-/***/ "./css/taxes/taxesCard.scss":
-/*!**********************************!*\
-  !*** ./css/taxes/taxesCard.scss ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-module.exports = {"taxesCard":"_2b-lrystqqhCl_NGWgyQFr","illustration":"_3_6Z9_3NaNBtxDyxTpp_u_","taxesCardTagsWrapper":"_2zwrUh2_hmRqEzmzNGlh5u","taxesCardTag":"_366T-bA42Pyg4Tn9GIrCB1"};;
-    if (true) {
-      var injectCss = function injectCss(prev, href) {
-        var link = prev.cloneNode();
-        link.href = href;
-        link.onload = function() {
-          prev.parentNode.removeChild(prev);
-        };
-        prev.stale = true;
-        prev.parentNode.insertBefore(link, prev);
-      };
-      module.hot.dispose(function() {
-        window.__webpack_reload_css__ = true;
-      });
-      if (window.__webpack_reload_css__) {
-        module.hot.__webpack_reload_css__ = false;
-        console.log("[HMR] Reloading stylesheets...");
-        var prefix = document.location.protocol + '//' + document.location.host;
-        document
-          .querySelectorAll("link[href][rel=stylesheet]")
-          .forEach(function(link) {
-            if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557838232746");
-          });
-      }
-    }
-  
-
-/***/ }),
-
-/***/ "./css/taxes/taxesPage.scss":
-/*!**********************************!*\
-  !*** ./css/taxes/taxesPage.scss ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-module.exports = {"taxesPage":"_1riD_NmAHqiezca81WrQT7"};;
-    if (true) {
-      var injectCss = function injectCss(prev, href) {
-        var link = prev.cloneNode();
-        link.href = href;
-        link.onload = function() {
-          prev.parentNode.removeChild(prev);
-        };
-        prev.stale = true;
-        prev.parentNode.insertBefore(link, prev);
-      };
-      module.hot.dispose(function() {
-        window.__webpack_reload_css__ = true;
-      });
-      if (window.__webpack_reload_css__) {
-        module.hot.__webpack_reload_css__ = false;
-        console.log("[HMR] Reloading stylesheets...");
-        var prefix = document.location.protocol + '//' + document.location.host;
-        document
-          .querySelectorAll("link[href][rel=stylesheet]")
-          .forEach(function(link) {
-            if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557838410483");
-          });
-      }
-    }
-  
-
-/***/ }),
-
-/***/ "./css/taxes/taxesPageCard.scss":
-/*!**************************************!*\
-  !*** ./css/taxes/taxesPageCard.scss ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-module.exports = {"cardWrapper":"_3OM9MxBSbIiLVerhKSIVnP","cardControls":"_3HQWxrDmkTaor26pfLrQwS","cardContent":"_2CHFUR38ELTdhmkYy151Ec","cardContentTags":"_2Y45qognsYv2zoG_SU7vlx","cardContentTag":"T3Z2ISZOciWAmomK0AXvI","cardContentDocsWrapper":"_3PbCsGwo9oUxSHWOwdmqo9","cardContentDocsControlls":"_98EuPsG47VQlrgbjeTAT1","cardContentControllsActive":"_39y4R9FUL_idlmONCg5NeP","cardContentControllsInactive":"_2l-IUUf9vLRCzPOV700j_S"};;
-    if (true) {
-      var injectCss = function injectCss(prev, href) {
-        var link = prev.cloneNode();
-        link.href = href;
-        link.onload = function() {
-          prev.parentNode.removeChild(prev);
-        };
-        prev.stale = true;
-        prev.parentNode.insertBefore(link, prev);
-      };
-      module.hot.dispose(function() {
-        window.__webpack_reload_css__ = true;
-      });
-      if (window.__webpack_reload_css__) {
-        module.hot.__webpack_reload_css__ = false;
-        console.log("[HMR] Reloading stylesheets...");
-        var prefix = document.location.protocol + '//' + document.location.host;
-        document
-          .querySelectorAll("link[href][rel=stylesheet]")
-          .forEach(function(link) {
-            if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557841289932");
-          });
-      }
-    }
-  
-
-/***/ }),
-
-/***/ "./css/taxes/taxesWrapper.scss":
-/*!*************************************!*\
-  !*** ./css/taxes/taxesWrapper.scss ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-module.exports = {"taxesWrapper":"_2izmYIB1xldhc4LZxzBMJM","taxesWrapperHeader":"_3JynlvfOZnP2LD1Wb15aJ5","taxesCardsWrapper":"q293GYz91Xiq7FNzPkLTv"};;
-    if (true) {
-      var injectCss = function injectCss(prev, href) {
-        var link = prev.cloneNode();
-        link.href = href;
-        link.onload = function() {
-          prev.parentNode.removeChild(prev);
-        };
-        prev.stale = true;
-        prev.parentNode.insertBefore(link, prev);
-      };
-      module.hot.dispose(function() {
-        window.__webpack_reload_css__ = true;
-      });
-      if (window.__webpack_reload_css__) {
-        module.hot.__webpack_reload_css__ = false;
-        console.log("[HMR] Reloading stylesheets...");
-        var prefix = document.location.protocol + '//' + document.location.host;
-        document
-          .querySelectorAll("link[href][rel=stylesheet]")
-          .forEach(function(link) {
-            if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1557838151907");
           });
       }
     }

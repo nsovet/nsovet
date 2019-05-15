@@ -1,54 +1,57 @@
 .none{
   display: none;
 }
-.serviceRowContent{
-  .serviceRowDescription{
-    width: 100%;
-    position: relative;
-    background-color: rgba(255,255,255,0.7);
-    padding: 22px 0 23px;
-    img{
-      position: absolute;
-      top: 16px;
-      left: 16px;
+
+@media (min-width: 1024px){
+  .serviceRowContent{
+    .serviceRowDescription{
+      width: 100%;
+      position: relative;
+      background-color: rgba(255,255,255,0.7);
+      padding: 22px 0 23px;
+      img{
+        position: absolute;
+        top: 16px;
+        left: 16px;
+      }
+      p{
+        margin: 0 auto;
+        width: 727px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 143.52%;
+        text-align: center;
+        opacity: 0.55;
+      }
     }
-    p{
-      margin: 0 auto;
-      width: 727px;
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 143.52%;
-      text-align: center;
-      opacity: 0.55;
-    }
-  }
-  .serviceRowTable{
-    margin-top: 32px;
-    margin-bottom: 32px;
-    .serviceRowTableHeading{
-      padding-bottom: 11px;
-      display: flex;
-      font-weight: 500;
-      font-size: 13px;
-      line-height: 16px;
-      color: #584E42;
-      border-bottom: 1px solid #B09C85;
-      div{
-        text-align: right;
-      }
-      .rowTitle{
-        text-align: left;
-        width: 50.4854369%;
-        padding-right: 10px;
-      }
-      .rowPrice{
-        width: 10.6796116%;
-      }
-      .rowTax{
-        width: 17.4757281%;
-      }
-      .rowFee{
-        width: 24.5954692%;
+    .serviceRowTable{
+      margin-top: 32px;
+      margin-bottom: 32px;
+      .serviceRowTableHeading{
+        padding-bottom: 11px;
+        display: flex;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        color: #584E42;
+        border-bottom: 1px solid #B09C85;
+        div{
+          text-align: right;
+        }
+        .rowTitle{
+          text-align: left;
+          width: 50.4854369%;
+          padding-right: 10px;
+        }
+        .rowPrice{
+          width: 10.6796116%;
+        }
+        .rowTax{
+          width: 17.4757281%;
+        }
+        .rowFee{
+          width: 24.5954692%;
+        }
       }
     }
   }
