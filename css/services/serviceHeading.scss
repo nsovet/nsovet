@@ -1,5 +1,78 @@
 @import './../variables';
 
+@media (min-width: 768px) and (max-width: 1023px){
+    .taxesWrapperHeader{
+        font-family: $font;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 133px;
+        width: 643px;
+        height: 120px;
+        h1{
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            top: 125px;
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 60px;
+            text-align: center;
+            letter-spacing: -0.01em;
+            color: #040404;
+            opacity: 0.9;
+            z-index: 7;
+        }
+        a{
+            display: flex;
+            width: 44px;
+            height: 44px;
+            position: absolute;
+            z-index: 10;
+            img{
+                position: absolute;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px){
+    .taxesWrapperHeader{
+        font-family: $font;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 133px;
+        width: 1236px;
+        height: 100px;
+        h1{
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            top: 150px;
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 60px;
+            text-align: center;
+            letter-spacing: -0.01em;
+            color: #040404;
+            opacity: 0.9;
+            z-index: 7;
+        }
+        a{
+            display: flex;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            z-index: 10;
+            img{
+                position: absolute;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
 @media (min-width:1024px) and (max-width: 1439px){
     .taxesWrapperHeader{
         font-family: $font;

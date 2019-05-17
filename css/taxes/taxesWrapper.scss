@@ -1,5 +1,59 @@
 @import './../variables';
 
+@media (min-width: 768px) and (max-width: 1023px){
+    .taxesWrapper{
+        width: 643px;
+        margin: 0 auto;
+        padding-top: 77px;
+        padding-bottom: 100px;
+        font-family: $font;
+        .taxesWrapperHeader{
+            position: relative;
+            padding-top: 48px;
+            padding-bottom: 68px;
+            margin-bottom: 29px;
+            width: 643px;
+            height: 49px;
+            border-bottom: 1px solid #9A8974;
+            h1{
+                position: absolute;
+                text-align: center;
+                width: 100%;
+                top: 65px;
+                font-weight: 600;
+                font-size: 45px;
+                line-height: 54px;
+                text-align: center;
+                letter-spacing: -0.01em;
+                color: #040404;
+                opacity: 0.9;
+                z-index: 0;
+            }
+            a{
+                display: flex;
+                width: 44px;
+                height: 44px;
+                position: absolute;
+                left: 0;
+                bottom: 53px;
+                z-index: 1;
+                border-radius: 44px;
+                box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.25);
+                img{
+                    position: absolute;
+                    cursor: pointer;
+                    
+                }
+            }
+        }
+        .taxesCardsWrapper{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }    
+
+}
+
 @media (min-width: 1024px) and (max-width: 1439px){
     .taxesWrapper{
         width: 934px;
@@ -31,11 +85,14 @@
             }
             a{
                 display: flex;
-                width: 100px;
-                height: 100px;
+                width: 44px;
+                height: 44px;
                 position: absolute;
                 left: 0;
                 z-index: 1;
+                bottom: 53px;
+                border-radius: 44px;
+                box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.25);
                 img{
                     position: absolute;
                     cursor: pointer;
@@ -80,10 +137,13 @@
             }
             a{
                 display: flex;
-                width: 100px;
-                height: 100px;
+                width: 44px;
+                height: 44px;
                 position: absolute;
                 z-index: 1;
+                bottom: 60px;
+                border-radius: 44px;
+                box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.25);
                 img{
                     position: absolute;
                     cursor: pointer;

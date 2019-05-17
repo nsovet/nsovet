@@ -1,5 +1,31 @@
 @import './../variables';
 
+@media (min-width: 768px) and (max-width: 1023px){
+    .taxesPage{
+        width: 643px;
+        margin: 0 auto;
+        padding-top: 77px;
+        padding-bottom: 100px;
+        font-family: $font;
+        h1{
+            transform: translateY(4px);
+            padding-top: 64px;
+            text-align: center;
+            width: 100%;
+            top: 64px;
+            padding-bottom: 27px;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 48px;
+            text-align: center;
+            letter-spacing: -0.01em;
+            color: #040404;
+            opacity: 0.9;
+        }
+    }
+   
+}
+
 @media (min-width: 1024px) and (max-width: 1439px){
     .taxesPage{
         width: 924px;

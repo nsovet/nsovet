@@ -28,6 +28,10 @@ export default () => {
                     <h1>Мы за безопасный<br/>и прибыльный бизнес</h1>
                     <p>Мы находимся на рынке более 10 лет и имеем <span>огромный опыт работы</span> с налоговыми органами и судебными инстанциями</p>
                     <a className={css.starterButton} href='#services'><span>Услуги</span></a>
+                    <a className={css.starterCallButton} href='tel:8-499-323-43-95'>
+                        <img src='/static/phone.svg' />
+                        <span>8 (499) 323-43-95</span>
+                    </a>
                 </div>
             </div>
         </div>

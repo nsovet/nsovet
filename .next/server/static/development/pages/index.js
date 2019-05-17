@@ -1119,7 +1119,28 @@ var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/in
       lineNumber: 30
     },
     __self: this
-  }, "\u0423\u0441\u043B\u0443\u0433\u0438")))));
+  }, "\u0423\u0441\u043B\u0443\u0433\u0438")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: _css_index_starter_scss__WEBPACK_IMPORTED_MODULE_1___default.a.starterCallButton,
+    href: "tel:8-499-323-43-95",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/phone.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "8 (499) 323-43-95")))));
 });
 
 /***/ }),
@@ -1244,7 +1265,8 @@ module.exports = {
 	"starter": "_2rpBUzv5hsNNCITeeMW1BQ",
 	"starterAdress": "GotsD5-A5Ixa_MiZxCbzo",
 	"starterInfo": "_4cddlZ6efLmaurqIRoL95",
-	"starterButton": "_1gj_guhHLVXibyIgaSmRFN"
+	"starterButton": "_1gj_guhHLVXibyIgaSmRFN",
+	"starterCallButton": "_3IdjuFQcVx66ZGKPX8v37h"
 };
 
 /***/ }),

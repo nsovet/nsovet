@@ -2,6 +2,63 @@
   display: none;
 }
 
+@media(min-width: 768px) and (max-width: 1023px){
+  .serviceRowContent{
+    .serviceRowDescription{
+      width: 100%;
+      position: relative;
+      background-color: rgba(255,255,255,0.7);
+      padding: 41px 0 61px;
+      img{
+        position: absolute;
+        top: 34px;
+        left: 27px;
+      }
+      p{
+        margin: 0 auto;
+        width: 545px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 143.52%;
+        text-align: center;
+        opacity: 0.55;
+      }
+    }
+    .serviceRowTable{
+      margin-top: 32px;
+      margin-bottom: 32px;
+      .serviceRowTableHeading{
+        padding-bottom: 11px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        color: #584E42;
+        border-bottom: 1px solid #B09C85;
+        div{
+          text-align: left;
+        }
+        .rowTitle{
+          text-align: left;
+          width: 50.4854369%;
+          padding-right: 10px;
+        }
+        .rowPrice{
+          width: 15.6796116%;
+        }
+        .rowTax{
+          width: 12.4757281%;
+        }
+        .rowFee{
+          width: 15.5954692%;
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 1024px){
   .serviceRowContent{
     .serviceRowDescription{

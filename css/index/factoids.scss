@@ -1,5 +1,52 @@
 @import '../variables.scss';
 
+@media (min-width: 768px) and (max-width: 1023px){
+    .factoidsWrapper{
+        width: 100vw;
+        height: 377px;
+        background-color: #704E34;
+        font-family: $font;
+        .factoids{
+            width: 643px;
+            margin: 0 auto;
+            h1{
+                padding-top: 47px;
+                margin-bottom: 63px;
+                color: #F1EDEB;
+                font-size: 40px;
+                line-height: 113.62%;
+                font-weight: 700;
+                letter-spacing: -0.02em;
+                text-align: center;
+            }
+            .factoidsItems{
+                display: flex;
+                justify-content: space-between;
+                .factoidsItem{
+                    display: flex;
+                    flex-flow: column;
+                    align-items: center;
+                    h2{
+                        font-size: 55px;
+                        font-weight: 700;
+                        line-height: 113.6%;
+                        letter-spacing: -0.02em;
+                        color: white;
+                        margin-bottom: 23px;
+                    }
+                    p{
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 137.5%;
+                        text-align: center;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 1024px) and (max-width: 1439px){
     .factoidsWrapper{
         width: 100vw;

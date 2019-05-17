@@ -15,6 +15,7 @@ export default ({data}) => {
                         <img src='/static/time.svg' />
                         <span>{data.time}</span>
                     </div>
+                    <img src='/static/chevronBack.svg' className={css.taxesCardChevron} />
                 </div>
                 <img src={data.image} className={css.illustration}/>
                 <h2>{data.name}</h2>
