@@ -1,5 +1,41 @@
 @import './../variables';
 
+@media (max-width: 767px){
+    .taxesWrapperHeader{
+        font-family: $font;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 123px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        h1{
+            text-align: center;
+            width: 100%;
+            font-weight: 600;
+            font-size: 22px;
+            text-align: center;
+            letter-spacing: -0.01em;
+            color: #040404;
+            opacity: 0.9;
+            z-index: 7;
+        }
+        a{
+            display: flex;
+            width: 36px;
+            height: 36px;
+            position: absolute;
+            z-index: 10;
+            img{
+                width: 36px;
+                height: 36px;
+                position: absolute;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1023px){
     .taxesWrapperHeader{
         font-family: $font;

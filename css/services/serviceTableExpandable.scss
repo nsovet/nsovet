@@ -2,6 +2,12 @@
   display: none;
 }
 
+@media (max-width: 767px){
+  .serviceTableWrapper{
+    width: 300px;
+    margin: 50px auto 70px;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 1023px){
   .serviceTableWrapper{

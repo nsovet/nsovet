@@ -1,5 +1,76 @@
 @import '../variables.scss';
 
+@media (max-width: 767px){
+    .promisesWrapper{
+        width: 100vw;
+        font-family: $font;
+        height: 1108px;
+        position: relative;
+        .anchor{
+            position: absolute;
+            top: -84px;
+        }
+        .promises{
+            width: 305px;
+            margin: 0 auto;
+            h1{
+                padding-top: 29px;
+                margin-bottom: 25px;
+                text-align: center;
+                font-size: 27px;
+                font-weight: 700;
+                color: white;
+            }
+            .promisesItems{
+                display: flex;
+                flex-flow: column;
+                .promisesItem{
+                    width: 305px;
+                    padding-bottom: 46px;
+                    position: relative;
+                    display: flex;
+                    flex-flow: column;
+                    align-items: center;
+                    color: white;
+                    font-weight: 500;
+                    font-size: 17px;
+                    img{
+                        width: 57px;
+                        max-height: 57px;
+                    }
+                    p{
+                        padding-top: 10px;
+                        text-align: center;
+                    }
+                }
+            }
+            .promisesCall{
+                width: 296px;
+                height: 68px;
+                display: flex;
+                margin: 0 auto;
+                justify-content: center;
+                align-items: center;
+                background: #4F261C;
+                box-shadow: 4px 4px 44px rgba(98, 48, 36, 0.44);
+                border-radius: 20px;
+                text-decoration: none;
+                span{
+                    text-decoration: none;
+                    padding-left: 6px;
+                    display: flex;
+                    align-self: center;
+                    font-weight: 600;
+                    font-size: 23px;
+                    line-height: 28px;
+                    color: white;
+                }
+            }
+        }
+    }
+
+}
+
 @media (min-width: 768px) and (max-width: 1023px){
     .promisesWrapper{
         width: 100vw;

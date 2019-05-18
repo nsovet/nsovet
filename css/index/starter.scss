@@ -1,5 +1,97 @@
 @import '../variables.scss';
 
+@media (max-width: 767px){
+    .starterWrapper{
+        width: 100vw;
+        min-height: calc(583px);
+        padding-top: 84px;
+        font-family: $font;
+        .starter{
+            position: relative;
+            margin: 0 auto;
+            width: 320px;
+            height: 100%;
+            display: flex;
+            .starterAdress{
+                display: none;
+            }
+            .starterInfo{
+                h1{
+                    margin-top: 30px;
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 113.62%;
+                    letter-spacing: -0.02em;
+                    color: white;
+                    margin-bottom: 24px;
+                }
+                p{
+                    text-align: center;
+                    width: 100%;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 137.5%;
+                    color: white;
+                    margin-bottom: 84px;
+                    span{
+                        font-weight: 700;
+                    }
+                }
+                .starterButton{
+                    width: 268px;
+                    height: 65px;
+                    background: #4F261C;
+                    box-shadow: 4px 4px 44px rgba(98, 48, 36, 0.44);
+                    border-radius: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    text-decoration: none;
+                    margin: 0 auto 29px;
+                    span{
+                        display: flex;
+                        align-self: center;
+                        transform: translateY(-2px);
+                        color: white;
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 26px;
+                        text-decoration: none;
+                    }
+                }
+                .starterCallButton{
+                    display: block;
+                    width: 268px;
+                    height: 65px;
+                    background: #FFC700;
+                    box-shadow: 4px 4px 22px rgba(98, 48, 36, 0.16);
+                    border-radius: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    text-decoration: none;
+                    margin: 0 auto;
+                    img{
+                        padding-right: 7px;
+                    }
+                    span{
+                        display: flex;
+                        align-self: center;
+                        font-size: 18px;
+                        line-height: 22px;
+                        font-weight: 700;
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
 @media (min-width: 768px) and (max-width: 1024px){
     .starterWrapper{
         width: 100vw;

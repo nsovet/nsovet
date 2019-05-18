@@ -1,3 +1,33 @@
+@media (max-width: 767px){
+  .serviceRowHeading{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    user-select: none;
+    h1{
+
+      padding: 25px 0 27px;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      color: #040404;
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: 500;
+    }
+    span{
+      font-size: 29px;
+      transition: 0.2s;
+      &.rotate{
+        transition: 0.2s;
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+
 @media (min-width: 768px){
   .serviceRowHeading{
     width: 100%;

@@ -1,5 +1,112 @@
 @import 'variables.scss';
 
+@media (max-width: 767px){
+    .headerWrapper{
+        width: 100vw;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+        font-family: $font;
+        position: fixed;
+        z-index: 100;
+        .header{
+            display: none;
+        }
+        .mobileHeader{
+            .headerStripe{
+                height: 84px;
+                display: flex;
+                align-items: center;
+                position: relative;
+                background-color: #fff;
+                .hamburger{
+                    margin-left: 22px;
+                }
+                .logo{
+                    width: 127px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                }
+            }
+            .headerMenu{
+                height: 100vh;
+                background-color: #4F261C;
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                .heading{
+                    height: 84px;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    .close{
+                        margin-left: 25px;
+                    }
+                    .logo{
+                        width: 127px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        margin: auto;
+                    }
+                }
+                .headerContent{
+                    .menuLinks{
+                        display: flex;
+                        flex-flow: column;
+                        font-size: 29px;
+                        font-weight: 500;
+                        margin: 0 auto;
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            text-align: center;
+                            margin-bottom: 37px;
+                        }
+                    }
+                }
+                .headerCallWrapper{
+                    margin: 48px auto 0;
+                    width: 234px;
+                    height: 51px;
+                    background: #FFC700;
+                    box-shadow: 4px 4px 22px rgba(98, 48, 36, 0.16);
+                    border-radius: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    text-decoration: none;
+                    img{
+                        padding-right: 7px;
+                    }
+                    span{
+                        display: flex;
+                        align-self: center;
+                        font-size: 18px;
+                        line-height: 22px;
+                        font-weight: 700;
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+                .adress{
+                    color: white;
+                    margin: 26px auto 36px;
+                    text-align: center;
+                    font-size: 18px;
+                }
+            }
+        }
+    } 
+    .none{
+        display: none;
+    }
+}
+
 
 @media (min-width: 768px) and (max-width: 1023px){
     .headerWrapper{
@@ -10,6 +117,9 @@
         position: fixed;
         z-index: 100;
         background-color: #fff;
+        .mobileHeader{
+            display: none;
+        }
         .header{
             width: 643px;
             margin: 0 auto;
@@ -71,6 +181,9 @@
         position: fixed;
         z-index: 100;
         background-color: #fff;
+        .mobileHeader{
+            display: none;
+        }
         .header{
             width: 924px;
             margin: 0 auto;
@@ -152,6 +265,9 @@
         position: fixed;
         z-index: 10;
         background-color: #fff;
+        .mobileHeader{
+            display: none;
+        }
         .header{
             width: 1236px;
             margin: 0 auto;
