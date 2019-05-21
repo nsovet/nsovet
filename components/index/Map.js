@@ -13,7 +13,7 @@ export default () => {
                     </div>
                     <div className={css.mapInfoSchedule}>
                         <span>ПОНЕДЕЛЬНИК — четверг<br/>9:30 — 18:00</span>
-                        <span>пятница<br/>9:30 — 16:45</span>
+                        <span>пятница<br/>9:30 — 17:00</span>
                     </div>
                 </div>
                 <div className={css.mapInfoPhones}>

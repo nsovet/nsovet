@@ -59,6 +59,11 @@
                         line-height: 26px;
                         text-decoration: none;
                     }
+                    transition: 0.2s ease-in-out;
+                    &:hover{
+                        transition: 0.2s ease-in-out;
+                        box-shadow: 4px 4px 64px #4F261C;
+                    }
                 }
                 .starterCallButton{
                     display: block;
@@ -83,6 +88,11 @@
                         font-weight: 700;
                         color: black;
                         text-decoration: none;
+                    }
+                    transition: 0.2s ease-in-out;
+                    &:hover{
+                        transition: 0.2s ease-in-out;
+                        box-shadow: 4px 4px 60px #DDF000;
                     }
                 }
             }
@@ -155,6 +165,11 @@
                         line-height: 26px;
                         text-decoration: none;
                     }
+                    transition: 0.2s ease-in-out;
+                    &:hover{
+                        transition: 0.2s ease-in-out;
+                        box-shadow: 4px 4px 64px #4F261C;
+                    }
                 }
                 .starterCallButton{
                     display: block;
@@ -178,6 +193,11 @@
                         font-weight: 700;
                         color: black;
                         text-decoration: none;
+                    }
+                    transition: 0.2s ease-in-out;
+                    &:hover{
+                        transition: 0.2s ease-in-out;
+                        box-shadow: 4px 4px 60px #DDF000;
                     }
                 }
             }
@@ -248,6 +268,11 @@
                         line-height: 26px;
                         text-decoration: none;
                     }
+                    transition: 0.2s ease-in-out;
+                    &:hover{
+                        transition: 0.2s ease-in-out;
+                        box-shadow: 4px 4px 64px #4F261C;
+                    }
                 }
                 .starterCallButton{
                     display: none;
@@ -317,6 +342,11 @@
                         font-size: 22px;
                         line-height: 26px;
                         text-decoration: none;
+                    }
+                    transition: 0.2s ease-in-out;
+                    &:hover{
+                        transition: 0.2s ease-in-out;
+                        box-shadow: 4px 4px 64px #4F261C;
                     }
                 }
                 .starterCallButton{

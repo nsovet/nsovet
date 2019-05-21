@@ -28,8 +28,9 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 36px;
-                height: 36px;     
+                width: 70px;
+                height: 70px;
+                transform: translate3d(20px, -17px, 0);     
                 border-radius: 36px;
                 transition: 0.2s;
                 img{

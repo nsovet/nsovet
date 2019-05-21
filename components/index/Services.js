@@ -29,7 +29,7 @@ export default () => {
                         </div>
                     </Link>
                 </div>
-                <a className={css.servicesCall} href='tel:8-499-323-43-95'>
+                <a className={css.servicesCall} href='tel:8-499-323-43-95' id='shadow'>
                     <img src='/static/phoneWhite.svg' />
                     <span>Связаться с нами</span>
                 </a>

@@ -15,6 +15,7 @@ class Header extends React.Component{
     handleClick(){
         this.setState({closed: !this.state.closed})
     }
+
     
     render(){
         return(
@@ -26,12 +27,12 @@ class Header extends React.Component{
                             <a 
                                 // className={css.headerMenuActive}
                                 href='/#about'>О нас</a>
-                            <a href='/#promises'>Приемущества</a>
+                            <a href='/#promises'>Преимущества</a>
                             <a href='/#services'>Услуги</a>
                             <a href='/#map'>Контакты</a>
                         </div>
-                        <a className={css.headerCallWrapper} href='tel:8-499-323-43-95'>
-                            <img src='/static/phone.svg' />
+                        <a className={css.headerCallWrapper} href='tel:8-499-323-43-95' id='callButton'>
+                            <img src='/static/phone.svg' className={css.phone}/>
                             <span>8 (499) 323-43-95</span>
                         </a>
                     </div>
@@ -51,12 +52,12 @@ class Header extends React.Component{
                                 <a 
                                     // className={css.headerMenuActive}
                                     href='/#about' onClick={this.handleClick}>О нас</a>
-                                <a href='/#promises' onClick={this.handleClick}>Приемущества</a>
+                                <a href='/#promises' onClick={this.handleClick}>Преимущества</a>
                                 <a href='/#services' onClick={this.handleClick}>Услуги</a>
                                 <a href='/#map' onClick={this.handleClick}>Контакты</a>
                             </div>
-                            <a className={css.headerCallWrapper} href='tel:8-499-323-43-95'>
-                                <img src='/static/phone.svg' />
+                            <a className={css.headerCallWrapper} href='tel:8-499-323-43-95' id='callButton'>
+                                <img src='/static/phone.svg' className={css.phone}/>
                                 <span>8 (499) 323-43-95</span>
                             </a>
                             <div className={css.adress}>Москва, Каширское шоссе,<br/>дом 44, корп. 1 </div>

@@ -13,6 +13,7 @@ const Tax = withRouter(props => {
         if(elem.id == props.router.query.id)
             e = elem
     })
+
     return (
         <div>
             <style JSX>
@@ -24,6 +25,15 @@ const Tax = withRouter(props => {
             </style>
             <Head>
                     <title>Налоговый советник | {e.name}</title>
+                    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png" />
+                    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png" />
+                    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png" />
+                    <link rel="manifest" href="/static/favicon/site.webmanifest" />
+                    <link rel="mask-icon" href="/static/favicon/safari-pinned-tab.svg" color="#6b4f38" />
+                    <link rel="shortcut icon" href="/static/favicon/favicon.ico" />
+                    <meta name="msapplication-TileColor" content="#7b5638" />
+                    <meta name="msapplication-config" content="/static/favicon/browserconfig.xml" />
+                    <meta name="theme-color" content="#ffffff" />
             </Head>
             <Header />
             <TaxesPage data={e} />
