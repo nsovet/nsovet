@@ -115,7 +115,7 @@ function (_React$Component) {
           lineNumber: 30
         },
         __self: this
-      }, "\u041F\u0440\u0438\u0435\u043C\u0443\u0449\u0435\u0441\u0442\u0432\u0430"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "\u041F\u0440\u0435\u0438\u043C\u0443\u0449\u0435\u0441\u0442\u0432\u0430"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         href: "/#services",
         __source: {
           fileName: _jsxFileName,
@@ -252,7 +252,7 @@ function (_React$Component) {
           lineNumber: 55
         },
         __self: this
-      }, "\u041F\u0440\u0438\u0435\u043C\u0443\u0449\u0435\u0441\u0442\u0432\u0430"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "\u041F\u0440\u0435\u0438\u043C\u0443\u0449\u0435\u0441\u0442\u0432\u0430"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         href: "/#services",
         onClick: this.handleClick,
         __source: {
@@ -522,7 +522,7 @@ var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/in
       lineNumber: 16
     },
     __self: this
-  }), "9:30 \u2014 16:45"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), "9:30 \u2014 17:00"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _css_index_map_scss__WEBPACK_IMPORTED_MODULE_1___default.a.mapInfoPhones,
     __source: {
       fileName: _jsxFileName,
@@ -832,6 +832,7 @@ var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/in
   }, "\u0424\u0438\u043D\u0430\u043D\u0441\u043E\u0432\u044B\u0435 \u0433\u0430\u0440\u0430\u043D\u0442\u0438\u0438 \u043F\u043E \u0434\u043E\u0433\u043E\u0432\u043E\u0440\u0443"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: _css_index_promises_scss__WEBPACK_IMPORTED_MODULE_1___default.a.promisesCall,
     href: "tel:8-499-323-43-95",
+    id: "shadow",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 51
@@ -937,6 +938,7 @@ var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/in
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: _css_index_recomendations_scss__WEBPACK_IMPORTED_MODULE_1___default.a.recomendationsCall,
     href: "tel:8-499-323-43-95",
+    id: "shadow",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -1099,6 +1101,7 @@ var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/in
   }, "\u042E\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u043B\u0438\u0446\u0430")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: _css_index_services_scss__WEBPACK_IMPORTED_MODULE_2___default.a.servicesCall,
     href: "tel:8-499-323-43-95",
+    id: "shadow",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
@@ -1144,86 +1147,87 @@ var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/in
     id: "about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     JSX: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
-  }, "\n                    .starterBG{\n                        width: 100vw;\n                        height: 100vh;\n                        background: url('/static/starter.png') no-repeat;\n                        background-size: cover;\n                        background-position: center;\n                        position: absolute;\n                        z-index: -1;\n                    }\n                "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "\n                    @media (max-width: 767px){\n                        .starterBG{\n                            width: 100vw;\n                            height: 100vh;\n                            background: url('/static/starterMobile.png') no-repeat;\n                            background-size: cover;\n                            background-position: center;\n                            position: absolute;\n                            z-index: -1;\n                        }\n                    }\n\n                    @media (min-width: 768px){\n                        .starterBG{\n                            width: 100vw;\n                            height: 100vh;\n                            background: url('/static/starter.png') no-repeat;\n                            background-size: cover;\n                            background-position: center;\n                            position: absolute;\n                            z-index: -1;\n                        }\n                    }\n                "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "starterBG",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 35
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _css_index_starter_scss__WEBPACK_IMPORTED_MODULE_1___default.a.starter,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _css_index_starter_scss__WEBPACK_IMPORTED_MODULE_1___default.a.starterAdress,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 37
     },
     __self: this
   }, "\u041C\u043E\u0441\u043A\u0432\u0430, \u041A\u0430\u0448\u0438\u0440\u0441\u043A\u043E\u0435 \u0448\u043E\u0441\u0441\u0435,", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 38
     },
     __self: this
   }), "\u0434\u043E\u043C 44, \u043A\u043E\u0440\u043F. 1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _css_index_starter_scss__WEBPACK_IMPORTED_MODULE_1___default.a.starterInfo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 41
     },
     __self: this
   }, "\u041C\u044B \u0437\u0430 \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u044B\u0439", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 41
     },
     __self: this
   }), "\u0438 \u043F\u0440\u0438\u0431\u044B\u043B\u044C\u043D\u044B\u0439 \u0431\u0438\u0437\u043D\u0435\u0441"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 42
     },
     __self: this
   }, "\u041C\u044B \u043D\u0430\u0445\u043E\u0434\u0438\u043C\u0441\u044F \u043D\u0430 \u0440\u044B\u043D\u043A\u0435 \u0431\u043E\u043B\u0435\u0435 10 \u043B\u0435\u0442 \u0438 \u0438\u043C\u0435\u0435\u043C ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 42
     },
     __self: this
   }, "\u043E\u0433\u0440\u043E\u043C\u043D\u044B\u0439 \u043E\u043F\u044B\u0442 \u0440\u0430\u0431\u043E\u0442\u044B"), " \u0441 \u043D\u0430\u043B\u043E\u0433\u043E\u0432\u044B\u043C\u0438 \u043E\u0440\u0433\u0430\u043D\u0430\u043C\u0438 \u0438 \u0441\u0443\u0434\u0435\u0431\u043D\u044B\u043C\u0438 \u0438\u043D\u0441\u0442\u0430\u043D\u0446\u0438\u044F\u043C\u0438"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: _css_index_starter_scss__WEBPACK_IMPORTED_MODULE_1___default.a.starterButton,
     href: "#services",
+    id: "shadow",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 43
     },
     __self: this
   }, "\u0423\u0441\u043B\u0443\u0433\u0438")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -1232,20 +1236,20 @@ var _jsxFileName = "/Users/antonalmosov/Desktop/tax-advisor-reborn/components/in
     id: "callButton",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/static/phone.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 45
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 46
     },
     __self: this
   }, "8 (499) 323-43-95")))));
@@ -13084,46 +13088,118 @@ function (_React$Component) {
           lineNumber: 40
         },
         __self: this
-      }, "\u041D\u0430\u043B\u043E\u0433\u043E\u0432\u044B\u0439 \u0441\u043E\u0432\u0435\u0442\u043D\u0438\u043A")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, "\u041D\u0430\u043B\u043E\u0433\u043E\u0432\u044B\u0439 \u0441\u043E\u0432\u0435\u0442\u043D\u0438\u043A"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "/static/favicon/apple-touch-icon.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "/static/favicon/favicon-32x32.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        href: "/static/favicon/favicon-16x16.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 43
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Starter__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "manifest",
+        href: "/static/favicon/site.webmanifest",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 44
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Factoids__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "mask-icon",
+        href: "/static/favicon/safari-pinned-tab.svg",
+        color: "#6b4f38",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 45
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Promises__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "shortcut icon",
+        href: "/static/favicon/favicon.ico",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Services__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "msapplication-TileColor",
+        content: "#7b5638",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Recomendations__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "msapplication-config",
+        content: "/static/favicon/browserconfig.xml",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Map__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "theme-color",
+        content: "#ffffff",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 49
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Starter__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Factoids__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Promises__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Services__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_index_Map__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
         },
         __self: this
       }));

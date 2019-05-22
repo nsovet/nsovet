@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { withRouter } from 'next/router'
 
 import data from './taxes.json'
+
 import Header from './../components/Header'
 import TaxesPage from './../components/taxes/TaxesPage'
 import '../css/style.scss'
@@ -20,6 +21,7 @@ const Tax = withRouter(props => {
                 {`
                     body{
                         background-color: #DCC3A6;
+                        padding-bottom: 100px;
                     }
                 `}
             </style>

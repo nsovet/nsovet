@@ -19,7 +19,7 @@ export default () => {
                     <Link href="/individuals">
                       <div className={css.servicesItem}>
                           <img src='/static/services/enterprenuers.png' />
-                          <h2>Индивидуальные предпрениматели</h2>
+                          <h2>Индивидуальные предприниматели</h2>
                       </div>
                     </Link>
                     <Link href="/organisations">

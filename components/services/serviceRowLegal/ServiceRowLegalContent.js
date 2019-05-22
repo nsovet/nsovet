@@ -17,7 +17,6 @@ export default ({isExpanded, data}) => {
             <div className={css.rowTitle}>Услуга</div>
             <div className={css.rowPrice}>Стоимость услуг</div>
             <div className={css.rowTax}>Гос. пошлина</div>
-            <div className={css.rowFee}>Нотариальные расходы</div>
         </div>
         {data.servicesArray.map(el => <ServiceTableRow data={el} />)}
       </div>

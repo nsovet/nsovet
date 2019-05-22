@@ -3,6 +3,11 @@ import Head from 'next/head'
 import anime from 'animejs'
 
 import data from './taxes.json'
+import huyata from './taxesInd.json'
+
+import ServiceSwitch from './../components/services/ServiceSwitchTax'
+import ServiceHeading from './../components/services/ServiceHeading'
+import ServiceTableExpandable from './../components/services/ServiceTableExpandable'
 import Header from './../components/Header'
 import TaxesWrapper from './../components/taxes/TaxesWrapper'
 import './../css/style.scss'
@@ -12,8 +17,11 @@ class Taxes extends React.Component {
         super(props)
 
         this.state = {
-            data
+            data,
+            huyata,
+            account: true
         }
+        this.handleChange = this.handleChange.bind(this)
     }
 
     componentDidMount(){
@@ -26,6 +34,10 @@ class Taxes extends React.Component {
             easing: 'cubicBezier(.1, .05, .1, .3)',
             loop: true,
         })
+    }
+
+    handleChange(content){
+        this.setState({account: content})
     }
 
     render(){
@@ -51,7 +63,10 @@ class Taxes extends React.Component {
                         }
                     `}
                 </style>
-                <TaxesWrapper services={this.state.data.services} />
+                <ServiceHeading heading='Физические лица' />
+                <ServiceSwitch onClick={this.handleChange} account={this.state.account}/>
+                <TaxesWrapper services={this.state.data.services} isAccount={this.state.account} />
+                <ServiceTableExpandable isAccount={this.state.account} data={this.state.huyata.legal}/>
             </div>
         )
     }

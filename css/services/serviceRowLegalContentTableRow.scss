@@ -51,22 +51,18 @@
         }
         .rowTitle{
             text-align: left;
-            width: 50.4854369%;
+            width: 71%;
             padding-right: 10px;
           }
           .rowPrice{
             padding-left: 30px;
-            width: 15.6796116%;
+            width: 16%;
           }
           .rowTax{
             padding-left: 20px;
-            width: 12.4757281%;
-          }
-          .rowFee{
-            width: 15.5954692%;
+            width: 13%;
             text-align: right;
-            padding-right: 20px;
-        }
+          }
         &:last-of-type{
             border-bottom: 0px solid #B09C85
         }
@@ -89,17 +85,15 @@
         }
         .rowTitle{
         text-align: left;
-        width: 50.4854369%;
+        width: 71%;
         padding-right: 10px;
         }
         .rowPrice{
-        width: 10.6796116%;
+        width: 11%;
         }
         .rowTax{
-        width: 17.4757281%;
-        }
-        .rowFee{
-        width: 24.5954692%;
+        width: 18%;
+        text-align: right;
         }
         &:last-of-type{
             border-bottom: 0px solid #B09C85
